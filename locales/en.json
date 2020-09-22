@@ -1,0 +1,113 @@
+{
+   "ui": {
+      "game": {
+         "menu": {
+            "harvest_menu": {
+               "items": {
+                  "box_hunt": {
+                     "display_name": "Hunt",
+                     "description": "Mark specific animals for hunting",
+                     "tip_title": "Click and drag to mark them",
+                     "tip_description": "Right click to exit this mode",
+                     "required_job_text": "Requires a Hunter"
+                  }
+               }
+            }
+         }
+      }
+   },
+   "jobs": {
+      "hunter": {
+         "hunter_description": {
+            "display_name": "Hunter",
+            "description": "Armed with bow and arrow, the Hunter provides your town with game, pelts and other resources by tracking and killing wild animals.",
+            "requirements": "Crafted by Carpenter",
+            "level_1_data": {
+               "hunting_perk": {
+                  "name": "Call of the Hunter",
+                  "description": "While still able to place and check traps in trapping zones, the Hunter will also go after designated targets and actively track down wildlife, providing occasional game to be spotted.<br><br>Targets can be designated with the Hunt command under the Harvest menu."
+               },
+               "tracking_1_perk": {
+                  "name": "Apprentice Tracker",
+                  "description": "The Hunter is able to track down small animals like squirrels or rabbits."
+               }
+            },
+            "level_3_data": {
+               "tracking_2_perk": {
+                  "name": "Journeyman Tracker",
+                  "description": "The Hunter is able to track down medium animals like foxes or deer."
+               },
+               "camping_perk": {
+                  "name": "Poaching",
+                  "description": "Hunting Camps can be crafted by the Weaver and placed anywhere on the world.<br><br>Whenever wild animals spawn near a Hunting Camp, they will be automatically marked for hunting."
+               }
+            },
+            "level_5_data": {
+               "tracking_3_perk": {
+                  "name": "Master Tracker",
+                  "description": "The Hunter is able to track down - and hunt - pretty much any kind of animal, even large predators."
+               }
+            },
+            "level_2_data": {
+               "clean_shot_1_perk": {
+                  "name": "Clean Kill (Rank 1)",
+                  "description": "The Hunter has increased damage and range, making sure that the animal can be killed with less effort."
+               }
+            },
+            "level_4_data": {
+               "clean_shot_2_perk": {
+                  "name": "Clean Kill (Rank 2)",
+                  "description": "The Hunter has the best damage and range, swiftly finishing off most animals with no suffering or effort."
+               }
+            },
+            "level_6_data": {
+               "dog_companion_perk": {
+                  "name": "Dog Companion",
+                  "description": "The Hunter acquires a loyal companion that will assist them during their hunts.<br><br>Dog companions will chase prey and - although they have a small damage output - they are very fast and will slow down their targets.<br><br>While hunting alongside their dog companion, all the resources dropped by the killed animals will be automatically moved to a Hunting Camp if available."
+               }
+            }
+         }
+      },
+      "carpenter": {
+         "recipes": {
+            "hunting_bow_recipe": {
+               "recipe_name": "Hunter's Bow",
+               "description": "Required to promote a hearthling into a Hunter.",
+               "flavor": "A simpler bow that can be more easily handled. Good enough for wild animals"
+            }
+         }
+      },
+      "trapper": {
+         "recipes": {
+            "hunting_bow_recipe": {
+               "recipe_name": "Hunter's Bow",
+               "description": "Required to promote the Trapper into a Hunter.",
+               "flavor": "A simpler bow that can be more easily handled. Good enough for wild animals"
+            }
+         }
+      }
+   },
+   "entities": {
+      "weapons": {
+         "hunting_bow": {
+            "display_name": "Hunting Bow",
+            "description": "Simpler bow used for hunting wildlife.",
+            "talisman": {
+               "display_name": "Hunter's Bow",
+               "description": "Required to promote a Trapper to a Hunter."
+            }
+         },
+         "hunting_arrow": {
+            "display_name": "Hunting Arrow",
+            "description": "Providing for the town."
+         }
+      }
+   },
+   "hunter": {
+      "journeyman_hat": {
+         "display_name": "Journeyman Hunter's Hat",
+         "description": "Provides the Hunter with some extra attributes when worn.",
+         "worn_description": "Slightly increasing Diligence and Speed."
+      }
+   }
+}

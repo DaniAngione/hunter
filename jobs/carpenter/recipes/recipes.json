@@ -1,0 +1,11 @@
+{
+   "craftable_recipes": {
+      "tools": {
+         "recipes": {
+            "hunting_bow": {
+               "recipe": "file(hunting_bow_recipe.json)"
+            }
+         }
+      }
+   }
+}

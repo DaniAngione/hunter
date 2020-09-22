@@ -1,0 +1,12 @@
+{
+   "harvest_menu": {
+      "items": {
+         "box_hunt": {
+            "mixintypes": {
+					"required_job": "remove",
+					"required_job_text": "remove"
+				}
+         }
+      }
+   }
+}

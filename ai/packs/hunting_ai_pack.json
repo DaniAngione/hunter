@@ -1,0 +1,11 @@
+{
+   "type" : "ai_pack",
+   "actions": [
+      "hunter:actions:combat:hunt_animal",
+      "hunter:actions:combat:loop_hunt_animal_melee",
+      "hunter:actions:combat:loop_hunt_animal_ranged"
+   ],
+   "task_groups" : [
+      "hunter:task_groups:hunting"
+   ]
+}

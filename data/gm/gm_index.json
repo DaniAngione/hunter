@@ -1,0 +1,7 @@
+{
+   "campaigns": {
+      "hunter": {
+         "hunter": "file(campaigns/hunter/hunter_campaign.json)"
+      }
+   }
+}

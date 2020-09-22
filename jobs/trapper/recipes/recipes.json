@@ -1,0 +1,13 @@
+{
+   "craftable_recipes": {
+      "tools": {
+			"ordinal": 2,
+         "name": "i18n(stonehearth:jobs.carpenter.recipes.tools_weapons_name)",
+         "recipes": {
+            "hunting_bow": {
+               "recipe": "file(hunting_bow_recipe.json)"
+            }
+         }
+      }
+   }
+}

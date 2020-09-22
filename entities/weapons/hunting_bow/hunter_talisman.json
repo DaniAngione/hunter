@@ -1,0 +1,43 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(hunting_bow_iconic.qb)"
+            ]
+         }
+      },
+      "effect_list": {
+         "default": "stonehearth:effects:talisman_glow"
+      },
+      "stonehearth:promotion_talisman": {
+         "job": "hunter:jobs:hunter"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 10,
+         "rarity": "rare",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(hunter:entities.weapons.hunting_bow.talisman.display_name)",
+         "description": "i18n(hunter:entities.weapons.hunting_bow.talisman.description)",
+         "icon": "file(hunting_bow.png)",
+         "is_item": true,
+         "category": "tools",
+         "material_tags": [
+            "wood",
+            "crafted",
+            "stockpile_tool"
+         ]
+      }
+   }
+}

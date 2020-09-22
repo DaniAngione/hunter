@@ -1,0 +1,30 @@
+{
+   "type": "encounter",
+   "encounter_type": "none",
+   "in_edge": "randomize_large_hunt",
+   "can_start": {
+      "test_1": {
+         "hunter_level_5": {
+            "item": "highest_job_level",
+            "type": "deny_if_less_than",
+            "value": 5,
+            "job_alias": "hunter:jobs:hunter"
+         }
+      }
+   },
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         {
+            "out_edge": "validate_caribou",
+            "type": "weighted_edge",
+            "weight": 4
+         },
+         {
+            "out_edge": "validate_boar",
+            "type": "weighted_edge",
+            "weight": 4
+         }
+      ]
+   }
+}

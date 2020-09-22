@@ -1,0 +1,58 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "transparent": "false",
+            "models": [
+               "file(journeyman_hat.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "transparent": "false",
+            "models": [
+               "file(journeyman_hat_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(journeyman_hat_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "helmet",
+         "render_type": "merge_with_model",
+         "roles": "hunter_job",
+         "required_job_level": 3,
+         "ilevel": 3,
+         "injected_buffs": [],
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 8,
+         "rarity": "rare",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(hunter:hunter.journeyman_hat.display_name)",
+         "description": "i18n(hunter:hunter.journeyman_hat.worn_description)",
+         "icon": "file(journeyman_hat.png)",
+         "category": "armor",
+         "material_tags": [
+            "hunter",
+            "journeyman",
+            "hat",
+            "pelt",
+            "stockpile_equipment",
+            "civillian_equipment"
+         ]
+      }
+   }
+}

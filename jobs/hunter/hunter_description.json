@@ -1,0 +1,121 @@
+{
+   "type": "job",
+   "enabled": true,
+   "job_id": "hunter",
+   "display_order": 11,
+   "alias": "hunter:jobs:hunter",
+   "display_name": "i18n(hunter:jobs.hunter.hunter_description.display_name)",
+   "controller": "hunter:class:hunter",
+   "description": "i18n(hunter:jobs.hunter.hunter_description.description)",
+   "requirements": "i18n(hunter:jobs.hunter.hunter_description.requirements)",
+   "talisman_uri": "hunter:talisman",
+   "default_stance": "passive",
+   "abilities": "file(hunter_abilities)",
+   "equipment": {
+      "torso": "file(hunter_outfit)",
+      "mainhand": "hunter:weapons:hunting_bow"
+   },
+   "roles": [
+      "hunter_job",
+      "field_work",
+      "hunter"
+   ],
+   "promotion_activity_name": "promote_hunter",
+   "task_groups": [
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:rescue",
+      "stonehearth:task_groups:placement",
+      "stonehearth:task_groups:town_alert",
+      "stonehearth:task_groups:trapping"
+   ],
+   "xp_rewards": {
+      "hunt": 1
+   },
+   "icon": "file(images/icon.png)",
+   "parent_job": "stonehearth:jobs:trapper",
+   "parent_level_requirement": 3,
+   "max_level": 6,
+   "level_data": {
+      "1": {
+         "perks": [
+            {
+               "level": 1,
+               "id": "hunting",
+               "name": "i18n(hunter:jobs.hunter.hunter_description.level_1_data.hunting_perk.name)",
+               "description": "i18n(hunter:jobs.hunter.hunter_description.level_1_data.hunting_perk.description)",
+               "icon": "file(images/hunting.png)"
+            },
+            {
+               "level": 1,
+               "id": "tracking_1",
+               "name": "i18n(hunter:jobs.hunter.hunter_description.level_1_data.tracking_1_perk.name)",
+               "description": "i18n(hunter:jobs.hunter.hunter_description.level_1_data.tracking_1_perk.description)",
+               "icon": "file(images/tracking_1.png)"
+            }
+         ]
+      },
+      "2": {
+         "perks": [
+            {
+               "level": 2,
+               "id": "clean_shot_1",
+               "name": "i18n(hunter:jobs.hunter.hunter_description.level_2_data.clean_shot_1_perk.name)",
+               "description": "i18n(hunter:jobs.hunter.hunter_description.level_2_data.clean_shot_1_perk.description)",
+               "icon": "file(images/clean_shot_1.png)"
+            }
+         ]
+      },
+      "3": {
+         "perks": [
+            {
+               "level": 3,
+               "id": "tracking_2",
+               "name": "i18n(hunter:jobs.hunter.hunter_description.level_3_data.tracking_2_perk.name)",
+               "description": "i18n(hunter:jobs.hunter.hunter_description.level_3_data.tracking_2_perk.description)",
+               "icon": "file(images/tracking_2.png)"
+            },
+            {
+               "level": 3,
+               "id": "camping",
+               "name": "i18n(hunter:jobs.hunter.hunter_description.level_3_data.camping_perk.name)",
+               "description": "i18n(hunter:jobs.hunter.hunter_description.level_3_data.camping_perk.description)",
+               "icon": "file(images/camping.png)"
+            }
+         ]
+      },
+      "4": {
+         "perks": [
+            {
+               "level": 4,
+               "id": "clean_shot_2",
+               "name": "i18n(hunter:jobs.hunter.hunter_description.level_4_data.clean_shot_2_perk.name)",
+               "description": "i18n(hunter:jobs.hunter.hunter_description.level_4_data.clean_shot_2_perk.description)",
+               "icon": "file(images/clean_shot_2.png)"
+            }
+         ]
+      },
+      "5": {
+         "perks": [
+            {
+               "level": 5,
+               "id": "tracking_3",
+               "name": "i18n(hunter:jobs.hunter.hunter_description.level_5_data.tracking_3_perk.name)",
+               "description": "i18n(hunter:jobs.hunter.hunter_description.level_5_data.tracking_3_perk.description)",
+               "icon": "file(images/tracking_3.png)"
+            }
+         ]
+      },
+      "6": {
+         "perks": [
+            {
+               "level": 6,
+               "id": "dog_companion",
+               "name": "i18n(hunter:jobs.hunter.hunter_description.level_6_data.dog_companion_perk.name)",
+               "description": "i18n(hunter:jobs.hunter.hunter_description.level_6_data.dog_companion_perk.description)",
+               "icon": "file(images/dog_companion.png)"
+            }
+         ]
+      }
+   }
+}

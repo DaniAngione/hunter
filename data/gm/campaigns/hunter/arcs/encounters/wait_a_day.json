@@ -1,0 +1,15 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "wait_a_day",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "generate_daily_hunt"
+      ]
+   },
+   "wait_info": {
+      "duration": "16h+8h",
+      "game_mode_tuning": true
+   }
+}

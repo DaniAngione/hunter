@@ -1,0 +1,11 @@
+{
+   "craftable_recipes": {
+      "tools": {
+         "recipes": {
+				"mixintypes": {
+					"hunting_bow": "remove"
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,34 @@
+{
+   "type": "encounter",
+   "encounter_type": "generator",
+   "in_edge": "generate_daily_hunt",
+   "generator_info": {
+      "delay": "16h+12h",
+      "game_mode_tuning": true,
+      "spawn_edge": {
+         "type": "trigger_one",
+         "out_edges": [
+            {
+               "out_edge": "randomize_large_hunt",
+               "type": "weighted_edge",
+               "weight": 2
+            },
+            {
+               "out_edge": "randomize_medium_hunt",
+               "type": "weighted_edge",
+               "weight": 4
+            },
+            {
+               "out_edge": "randomize_small_hunt",
+               "type": "weighted_edge",
+               "weight": 3
+            },
+            {
+               "out_edge": "do_nothing",
+               "type": "weighted_edge",
+               "weight": 2
+            }
+         ]
+      }
+   }
+}

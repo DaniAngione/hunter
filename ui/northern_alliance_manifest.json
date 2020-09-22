@@ -1,0 +1,5 @@
+{
+   "mixintos": {
+      "stonehearth/data/ui/start_menu.json": "hunter/data/ui/northern_alliance_start_menu.json"
+   }
+}

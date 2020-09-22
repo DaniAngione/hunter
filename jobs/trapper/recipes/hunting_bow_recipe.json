@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 20,
+   "recipe_name": "i18n(hunter:jobs.trapper.recipes.hunting_bow_recipe.recipe_name)",
+   "description": "i18n(hunter:jobs.trapper.recipes.hunting_bow_recipe.description)",
+   "flavor": "i18n(hunter:jobs.trapper.recipes.hunting_bow_recipe.flavor)",
+   "portrait": "/hunter/entities/weapons/hunting_bow/hunting_bow.png",
+   "workshop": "trapper_plus:trapper:block",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      },
+      {
+         "material": "fiber resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "hunter:talisman"
+      }
+   ]
+}

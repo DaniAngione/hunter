@@ -1,0 +1,62 @@
+{
+   "info": {
+      "name": "The Hunter",
+      "namespace": "hunter",
+      "version": 3,
+      "steam_file_id": "2232330782"
+   },
+   "dependencies": [
+      "core_dani",
+      "stonehearth_ace"
+   ],
+   "author": "DaniAngione",
+   "default_locale": "en",
+   "server_init_script": "file(hunter_server)",
+   "aliases": {
+      "actions:combat:hunt_animal": "file(ai/actions/hunt_animal_action.lua)",
+      "actions:combat:loop_hunt_animal_melee": "file(ai/actions/loop_hunt_animal_melee_action.lua)",
+      "actions:combat:loop_hunt_animal_ranged": "file(ai/actions/loop_hunt_animal_ranged_action.lua)",
+      "ai_pack:hunting": "file(ai/packs/hunting_ai_pack.json)",
+      "data:gm_index": "file(data/gm/gm_index.json)",
+      "hat:journeyman": "file(jobs/hunter/journeyman_hat/journeyman_hat.json)",
+      "jobs:hunter": "file(jobs/hunter/hunter_description.json)",
+      "jobs:index": "file(jobs/index.json)",
+      "talisman": "file(entities/weapons/hunting_bow/hunter_talisman.json)",
+      "task_groups:hunting": "file(ai/task_groups/hunting_task_group.lua)",
+      "weapons:hunting_arrow": "file(entities/weapons/hunting_arrow/hunting_arrow.json)",
+      "weapons:hunting_bow": "file(entities/weapons/hunting_bow/hunting_bow.json)"
+   },
+   "mixintos": {
+      "stonehearth:jobs:index": "hunter:jobs:index",
+      "stonehearth:data:gm_index": "hunter:data:gm_index",
+      "stonehearth/data/ui/start_menu.json": "file(data/ui/start_menu.json)",
+      "northern_alliance/ui/manifest.json": "file(ui/northern_alliance_manifest.json)",
+      "stonehearth/jobs/carpenter/recipes/recipes.json": [
+         "file(jobs/carpenter/recipes/recipes.json)",
+         "/trapper_plus/jobs/carpenter/recipes/hunter_recipes.json"
+      ],
+      "trapper_plus/jobs/trapper/recipes/recipes.json": "file(jobs/trapper/recipes/recipes.json)"
+   },
+   "overrides": {
+      "trapper_plus/jobs/carpenter/recipes/hunter_recipes.json": "file(mod_compatibility/trapper_plus/jobs/carpenter/recipes/recipes.json)"
+   },
+   "components": {},
+   "controllers": {
+      "class:hunter": "file(jobs/hunter/hunter.lua)"
+   },
+   "functions": {
+      "box_hunt": {
+         "controller": "file(call_handlers/resource_call_handler.lua)",
+         "endpoint": "client"
+      },
+      "server_box_hunt": {
+         "controller": "file(call_handlers/resource_call_handler.lua)",
+         "endpoint": "server"
+      }
+   },
+   "ui": {
+      "js": [
+         "file(ui/game/start_menu/start_menu.js)"
+      ]
+   }
+}
