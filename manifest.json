@@ -42,7 +42,8 @@
    },
    "components": {},
    "controllers": {
-      "class:hunter": "file(jobs/hunter/hunter.lua)"
+      "class:hunter": "file(jobs/hunter/hunter.lua)",
+		"game_master:missions:wild_game_spawn": "file(services/server/game_master/controllers/missions/wild_game_spawn.lua)"
    },
    "functions": {
       "box_hunt": {
