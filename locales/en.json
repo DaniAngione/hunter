@@ -1,4 +1,13 @@
 {
+   "data": {
+      "gm": {
+         "campaigns": {
+            "hunting": {
+               "wild_game_spawn": "Wild game has been tracked!"
+            }
+         }
+      }
+   },
    "ui": {
       "game": {
          "menu": {
@@ -38,14 +47,14 @@
                   "description": "The Hunter is able to track down medium animals like foxes or deer."
                },
                "camping_perk": {
-                  "name": "Poaching",
+                  "name": "Camping",
                   "description": "Hunting Camps can be crafted by the Weaver and placed anywhere on the world.<br><br>Whenever wild animals spawn near a Hunting Camp, they will be automatically marked for hunting."
                }
             },
             "level_5_data": {
                "tracking_3_perk": {
-                  "name": "Master Tracker",
-                  "description": "The Hunter is able to track down - and hunt - pretty much any kind of animal, even large predators."
+                  "name": "Master Tracker & Poaching",
+                  "description": "The Hunter is able to track down - and hunt - pretty much any kind of animal, even large predators.<br><br>Their exceptional tracking skills also allow them to occasionally go on special hunting trips outside of your own territory."
                }
             },
             "level_2_data": {
@@ -100,6 +109,12 @@
          "hunting_arrow": {
             "display_name": "Hunting Arrow",
             "description": "Providing for the town."
+         }
+      },
+      "containers": {
+         "hunting_camp": {
+            "display_name": "Hunting Camp",
+            "description": "Automatically marks nearby tracked animals to be hunted. Used as a storage by Level 6 Hunters."
          }
       }
    },

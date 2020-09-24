@@ -1,46 +1,40 @@
 {
    "type": "encounter",
-   "encounter_type": "create_mission",
-   "rarity": "common",
+   "encounter_type": "script",
    "in_edge": "fox_hunt",
    "out_edge": "cleanup_fox",
-   "create_mission_info": {
-      "spawn_range": {
-         "min": 50,
-         "max": 100
-      },
-      "on_searcher_failure": {
-         "destroy_tree": {
-            "root": "validate_fox",
-            "destroy_root": true
-         }
-      },
-      "mission": {
-         "only_notify_owner": true,
-         "irrelevant_amenity": true,
-         "npc_player_id": "animals",
-         "ctx_entity_registration_path": "fox_hunt",
-         "role": "spawn_enemies",
-         "offset": { "x": 0, "y": 0, "z": 0 },
+   "script_info": {
+      "script": "hunter:game_master:script:wild_game_spawn",
+      "data": {
          "spawn_range": {
-            "min": 120,
-            "max": 180
+            "min": 50,
+            "max": 100
          },
-         "sighted_bulletin": {
-            "title": "i18n(northern_alliance:data.gm.campaigns.hunting.wild_game)",
-            "type": "info",
-            "active_duration": "2h"
+         "on_searcher_failure": {
+            "destroy_tree": {
+               "root": "validate_fox",
+               "destroy_root": true
+            }
          },
-         "members": {
-            "deer": {
-               "from_population": {
-                  "role": "fox",
-                  "location": { "x": 0, "z": 0 },
-                  "min": 1,
-                  "max": 3,
-                  "range": 5
-               },
-               "combat_leash_range": 50
+         "mission": {
+            "npc_player_id": "animals",
+            "ctx_entity_registration_path": "fox_hunt",
+            "offset": { "x": 0, "y": 0, "z": 0 },
+            "spawn_range": {
+               "min": 120,
+               "max": 180
+            },
+            "members": {
+               "deer": {
+                  "from_population": {
+                     "role": "fox",
+                     "location": { "x": 0, "z": 0 },
+                     "min": 1,
+                     "max": 3,
+                     "range": 5
+                  },
+                  "combat_leash_range": 50
+               }
             }
          }
       }

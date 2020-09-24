@@ -1,0 +1,26 @@
+{
+   "groups": {
+      "food_preference": {
+         "stonehearth:traits:herbivore": {
+				"excludes": {
+               "hunter:traits:passion_hunter": true
+            }			
+			}
+      },
+      "passion_jobs": {
+         "hunter:traits:passion_hunter": {}
+      }
+   },
+   "traits": {
+      "stonehearth:traits:heart_of_a_crafter": {
+         "excludes": {
+            "hunter:traits:passion_hunter": true
+         }
+      },
+      "stonehearth:traits:empathetic": {
+         "excludes": {
+            "hunter:traits:passion_hunter": true
+         }
+      }
+   }
+}

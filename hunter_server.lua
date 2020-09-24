@@ -4,9 +4,7 @@ local service_creation_order = {
 }
 
 local monkey_patches = {
-	hunter_combat_service = 'stonehearth.services.server.combat.combat_service',	
-	hunter_mission = 'stonehearth.services.server.game_master.controllers.missions.mission',
-	hunter_population_faction = 'stonehearth.services.server.population.population_faction'
+	hunter_combat_service = 'stonehearth.services.server.combat.combat_service'
 }
 
 local function monkey_patching()

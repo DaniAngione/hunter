@@ -17,16 +17,21 @@
       "actions:combat:loop_hunt_animal_melee": "file(ai/actions/loop_hunt_animal_melee_action.lua)",
       "actions:combat:loop_hunt_animal_ranged": "file(ai/actions/loop_hunt_animal_ranged_action.lua)",
       "ai_pack:hunting": "file(ai/packs/hunting_ai_pack.json)",
+      "containers:hunting_camp": "file(entities/containers/hunting_camp/hunting_camp.json)",
       "data:gm_index": "file(data/gm/gm_index.json)",
+      "game_master:script:wild_game_spawn": "file(services/server/game_master/controllers/scripts/wild_game_spawn_script.lua)",
       "hat:journeyman": "file(jobs/hunter/journeyman_hat/journeyman_hat.json)",
       "jobs:hunter": "file(jobs/hunter/hunter_description.json)",
       "jobs:index": "file(jobs/index.json)",
       "talisman": "file(entities/weapons/hunting_bow/hunter_talisman.json)",
       "task_groups:hunting": "file(ai/task_groups/hunting_task_group.lua)",
+      "traits:passion_hunter": "file(data/traits/passion_hunter/passion_hunter_trait.json)",
+      "traits_index": "file(data/traits/traits_index.json)",
       "weapons:hunting_arrow": "file(entities/weapons/hunting_arrow/hunting_arrow.json)",
       "weapons:hunting_bow": "file(entities/weapons/hunting_bow/hunting_bow.json)"
    },
    "mixintos": {
+      "stonehearth:traits_index": "hunter:traits_index",
       "stonehearth:jobs:index": "hunter:jobs:index",
       "stonehearth:data:gm_index": "hunter:data:gm_index",
       "stonehearth/data/ui/start_menu.json": "file(data/ui/start_menu.json)",
@@ -43,7 +48,7 @@
    "components": {},
    "controllers": {
       "class:hunter": "file(jobs/hunter/hunter.lua)",
-		"game_master:missions:wild_game_spawn": "file(services/server/game_master/controllers/missions/wild_game_spawn.lua)"
+      "game_master:script:wild_game_spawn": "file(services/server/game_master/controllers/scripts/wild_game_spawn_script.lua)"
    },
    "functions": {
       "box_hunt": {

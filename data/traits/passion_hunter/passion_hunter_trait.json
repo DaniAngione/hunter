@@ -1,0 +1,16 @@
+{
+   "type": "trait",
+   "mixins": "stonehearth:mixins:traits:passion_job",
+   "icon": "file(passion_hunter_trait.png)",
+   "data": {
+      "job_uri": "hunter:jobs:hunter"
+   },
+   "subject_overrides": [
+      {
+         "subject": "hunter:talisman",
+         "sentiment": 1,
+         "permanent": true,
+         "unvarying": true
+      }
+   ]
+}

@@ -40,7 +40,7 @@ function HunterCombatService:distribute_hunter_exp(attacker, target)
 		local experience = 0
 		
 		if max_health then
-			experience = math.max(5, math.min(math.floor(max_health / 3), 60))
+			experience = math.max(5, math.min(math.floor(max_health / 2), 60))
 			attacker:get_component('stonehearth:job'):add_exp(experience)
 		end
 	else
