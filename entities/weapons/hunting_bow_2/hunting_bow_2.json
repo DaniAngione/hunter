@@ -1,0 +1,69 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(hunting_bow_2_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(hunting_bow_2_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ],
+         "ilevel": 23
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 23,
+         "base_ranged_damage": 23,
+         "range": 25,
+         "projectile_speed": 38,
+         "projectile_uri": "hunter:weapons:hunting_arrow",
+         "projectile_start_offset": { "x": -0.2, "y": 1.5, "z": -1 },
+         "projectile_end_offset": { "x": 0, "y": 1.5, "z": 0 }
+      },
+      "stonehearth:combat:ranged_attacks": [
+         {
+            "name": "archer_1h_shoot",
+            "effect": "archer_1h_shoot",
+            "active_frame": 41,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ],
+      "stonehearth:combat:idle:ready": {
+         "name": "archer_1h_idle"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 19,
+         "shop_info": {
+            "buyable": false,
+            "sellable": true
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(hunter:entities.weapons.hunting_bow_2.display_name)",
+         "description": "i18n(hunter:entities.weapons.hunting_bow_2.description)",
+         "icon": "file(hunting_bow_2.png)",
+         "category": "weapons",
+         "material_tags": [
+            "wood",
+            "job_tool",
+            "hunting_bow",
+            "improved",
+            "stockpile_equipment",
+            "civillian_equipment"
+         ]
+      }
+   }
+}

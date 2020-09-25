@@ -5,7 +5,8 @@
    "out_edge": {
       "type": "trigger_many",
       "out_edges": [
-         "generate_daily_hunt"
+         "generate_daily_hunt",
+			"wait_for_master_hunter"
       ]
    },
    "wait_info": {

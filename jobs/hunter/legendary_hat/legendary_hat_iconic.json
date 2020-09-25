@@ -1,0 +1,28 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(legendary_hat_iconic.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "render_info": {
+         "scale": 0.09
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(hunter:hunter.legendary_hat.display_name)",
+         "description": "i18n(hunter:hunter.legendary_hat.description)",
+         "icon": "file(legendary_hat.png)",
+         "is_item": true,
+         "category": "armor"
+      }
+   }
+}

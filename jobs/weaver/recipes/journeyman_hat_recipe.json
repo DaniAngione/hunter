@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 24,
+   "work_units": 20,
+   "recipe_name": "i18n(hunter:jobs.weaver.recipes.journeyman_hat_recipe.recipe_name)",
+   "description": "i18n(hunter:jobs.weaver.recipes.journeyman_hat_recipe.description)",
+   "flavor": "i18n(hunter:jobs.weaver.recipes.journeyman_hat_recipe.flavor)",
+   "portrait": "/hunter/jobs/hunter/journeyman_hat/journeyman_hat.png",
+   "workshop": "stonehearth:weaver:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "leather resource",
+         "count": 1
+      },
+		{
+         "material": "pelt resource",
+         "count": 3
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "hunter:hat:journeyman"
+      }
+   ]
+}

@@ -29,9 +29,6 @@
       "stonehearth:task_groups:town_alert",
       "stonehearth:task_groups:trapping"
    ],
-   "xp_rewards": {
-      "hunt": 1
-   },
    "icon": "file(images/icon.png)",
    "parent_job": "stonehearth:jobs:trapper",
    "parent_level_requirement": 3,
@@ -40,11 +37,14 @@
       "1": {
          "perks": [
             {
+               "type": "apply_buff",
                "level": 1,
                "id": "hunting",
+               "buff_name": "hunter:buffs:hunting",
                "name": "i18n(hunter:jobs.hunter.hunter_description.level_1_data.hunting_perk.name)",
                "description": "i18n(hunter:jobs.hunter.hunter_description.level_1_data.hunting_perk.description)",
-               "icon": "file(images/hunting.png)"
+               "icon": "file(images/hunting.png)",
+               "demote_fn": "remove_buff"
             },
             {
                "level": 1,
@@ -58,11 +58,14 @@
       "2": {
          "perks": [
             {
+               "type": "apply_buff",
                "level": 2,
                "id": "clean_shot_1",
+               "buff_name": "hunter:buffs:clean_shot_1",
                "name": "i18n(hunter:jobs.hunter.hunter_description.level_2_data.clean_shot_1_perk.name)",
                "description": "i18n(hunter:jobs.hunter.hunter_description.level_2_data.clean_shot_1_perk.description)",
-               "icon": "file(images/clean_shot_1.png)"
+               "icon": "file(images/clean_shot_1.png)",
+               "demote_fn": "remove_buff"
             }
          ]
       },
@@ -87,11 +90,15 @@
       "4": {
          "perks": [
             {
+               "type": "apply_chained_buff",
                "level": 4,
                "id": "clean_shot_2",
+               "last_buff": "hunter:buffs:clean_shot_1",
+               "buff_name": "hunter:buffs:clean_shot_2",
                "name": "i18n(hunter:jobs.hunter.hunter_description.level_4_data.clean_shot_2_perk.name)",
                "description": "i18n(hunter:jobs.hunter.hunter_description.level_4_data.clean_shot_2_perk.description)",
-               "icon": "file(images/clean_shot_2.png)"
+               "icon": "file(images/clean_shot_2.png)",
+               "demote_fn": "remove_buff"
             }
          ]
       },
@@ -109,11 +116,14 @@
       "6": {
          "perks": [
             {
+               "type": "apply_buff",
                "level": 6,
                "id": "dog_companion",
+               "buff_name": "hunter:buffs:dog_companion",
                "name": "i18n(hunter:jobs.hunter.hunter_description.level_6_data.dog_companion_perk.name)",
                "description": "i18n(hunter:jobs.hunter.hunter_description.level_6_data.dog_companion_perk.description)",
-               "icon": "file(images/dog_companion.png)"
+               "icon": "file(images/dog_companion.png)",
+               "demote_fn": "remove_buff"
             }
          ]
       }

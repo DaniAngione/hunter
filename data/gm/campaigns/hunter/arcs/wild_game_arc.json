@@ -3,32 +3,53 @@
    "rarity": "common",
    "encounters": {
       "wait_for_hunter": "file(encounters/wait_for_hunter.json)",
+		"wait_for_master_hunter": "file(encounters/wait_for_master_hunter.json)",
       "wait_a_day": "file(encounters/wait_a_day.json)",
+		
       "generate_daily_hunt": "file(encounters/generate_daily_hunt.json)",
       "randomize_small_hunt": "file(encounters/randomize_small_hunt.json)",
 		"randomize_medium_hunt": "file(encounters/randomize_medium_hunt.json)",
-		"randomize_large_hunt": "file(encounters/randomize_large_hunt.json)",
+		"randomize_large_hunt": "file(encounters/randomize_large_hunt.json)",	
+      "do_nothing": "file(encounters/do_nothing.json)",		
+		
       "validate_rabbits": "file(encounters/validate_rabbits.json)",
       "rabbit_hunt": "file(encounters/rabbit_hunt.json)",
       "cleanup_rabbits": "file(encounters/cleanup_rabbits.json)",
+		
       "validate_deer": "file(encounters/validate_deer.json)",
       "deer_hunt": "file(encounters/deer_hunt.json)",
       "cleanup_deer": "file(encounters/cleanup_deer.json)",
+		
       "validate_fox": "file(encounters/validate_fox.json)",
       "fox_hunt": "file(encounters/fox_hunt.json)",
       "cleanup_fox": "file(encounters/cleanup_fox.json)",
+		
       "validate_squirrel": "file(encounters/validate_squirrel.json)",
       "squirrel_hunt": "file(encounters/squirrel_hunt.json)",
       "cleanup_squirrel": "file(encounters/cleanup_squirrel.json)",
+		
       "validate_racoon": "file(encounters/validate_racoon.json)",
       "racoon_hunt": "file(encounters/racoon_hunt.json)",
       "cleanup_racoon": "file(encounters/cleanup_racoon.json)",
+		
       "validate_boar": "file(encounters/validate_boar.json)",
       "boar_hunt": "file(encounters/boar_hunt.json)",
       "cleanup_boar": "file(encounters/cleanup_boar.json)",
+		
       "validate_caribou": "file(encounters/validate_caribou.json)",
       "caribou_hunt": "file(encounters/caribou_hunt.json)",
       "cleanup_caribou": "file(encounters/cleanup_caribou.json)",
-      "do_nothing": "file(encounters/do_nothing.json)"
+		
+		"validate_ostrich": "file(encounters/validate_ostrich.json)",
+      "ostrich_hunt": "file(encounters/ostrich_hunt.json)",
+      "cleanup_ostrich": "file(encounters/cleanup_ostrich.json)",
+		
+		"validate_duckduck": "file(encounters/validate_duckduck.json)",
+      "duckduck_hunt": "file(encounters/duckduck_hunt.json)",
+      "cleanup_duckduck": "file(encounters/cleanup_duckduck.json)",
+		
+		"generate_weekly_hunt": "file(encounters/generate_weekly_hunt.json)",
+		
+		"weekly_hunt_small": "file(encounters/weekly_hunt/weekly_hunt_small.json)"
    }
 }

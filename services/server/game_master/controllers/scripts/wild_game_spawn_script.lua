@@ -1,4 +1,5 @@
 local game_master_lib = require 'stonehearth.lib.game_master.game_master_lib'
+local ResourceCallHandler = require 'hunter.call_handlers.resource_call_handler'
 local Point3 = _radiant.csg.Point3
 
 local WildGameSpawn = class()
@@ -114,7 +115,19 @@ function WildGameSpawn:_create_party(ctx, info)
    local raid_timeout_minutes = info.raid_timeout_minutes or 4300
    local raid_timeout_variance_minutes = info.raid_timeout_variance_minutes or 0
 
-	local bulletin_created = nil
+	local bulletin_created = nil	
+	-- Hunting Camps
+	local hunting_camps = {}
+	local camp_found = nil
+	local inventory = stonehearth.inventory:get_inventory(ctx.player_id)
+	if inventory then
+		local matching = inventory and inventory:get_items_of_type('hunter:containers:hunting_camp')
+		for _, camp in pairs(matching and matching.items or {}) do
+			if radiant.entities.exists_in_world(camp) then
+				table.insert(hunting_camps, camp)
+			end
+		end
+	end
 	
    local citizens_by_type = {}
    if info.members then
@@ -125,6 +138,23 @@ function WildGameSpawn:_create_party(ctx, info)
             radiant.entities.set_attribute(member, 'raid_timeout_minutes', raid_timeout_minutes)
             radiant.entities.set_attribute(member, 'raid_timeout_variance_minutes', raid_timeout_variance_minutes)
             party_component:add_member(member)
+				
+				-- Hunting Camps
+				if hunting_camps ~= {} and camp_found == nil then
+					for _, hunting_camp in ipairs(hunting_camps) do
+						local distance = radiant.entities.distance_between_entities(hunting_camp, member)
+						if distance and distance < 120 then
+							camp_found = true
+							break
+						else
+							camp_found = false
+							break
+						end
+					end
+				end			
+				if camp_found == true then
+					ResourceCallHandler:hunt_entity(ctx, true, member, false)
+				end
 				
 				if not bulletin_created then
 					stonehearth.bulletin_board:post_bulletin(ctx.player_id)

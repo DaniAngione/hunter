@@ -6,6 +6,9 @@
          "type": "output_crate",
          "capacity": 48
       },
+      "stonehearth:lamp": {
+         "light_effect": "hunter:effects:hunting_camp"
+      },
       "stonehearth:entity_forms": {
          "iconic_form": "file(hunting_camp_iconic.json)",
          "ghost_form": "file(hunting_camp_ghost.json)",
@@ -14,12 +17,13 @@
       "destination": {
          "region": [
             {
+               "min": { "x": 0, "y": 0, "z": -3 },
+               "max": { "x": 2, "y": 1, "z": -1 }
+            },
+            {
                "min": { "x": -3, "y": 0, "z": 0 },
                "max": { "x": -2, "y": 1, "z": 2 }
             }
-         ],
-         "adjacency_flags": [
-            "left"
          ]
       },
       "region_collision_shape": {
@@ -29,9 +33,17 @@
                "max": { "x": 2, "y": 3, "z": 2 }
             }
          ]
+      },
+      "stonehearth:mount": {
+         "mounted_posture": "stonehearth:sitting_on_chair",
+         "mount_offset": { "x": 1.16, "y": 0.16, "z": -1.4 }
       }
    },
    "entity_data": {
+      "stonehearth:chair": {},
+      "stonehearth:territory": {
+         "marks_territory": false
+      },
       "stonehearth:net_worth": {
          "value_in_gold": 25,
          "rarity": "common",

@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 35,
+   "work_units": 20,
+   "recipe_name": "i18n(hunter:jobs.carpenter.recipes.hunting_bow_2_recipe.recipe_name)",
+   "description": "i18n(hunter:jobs.carpenter.recipes.hunting_bow_2_recipe.description)",
+   "flavor": "i18n(hunter:jobs.carpenter.recipes.hunting_bow_2_recipe.flavor)",
+   "portrait": "/hunter/entities/weapons/hunting_bow_2/hunting_bow_2.png",
+   "workshop": "stonehearth:carpenter:toolbench",
+   "level_requirement": 5,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      },
+      {
+         "material": "leather resource",
+         "count": 1
+      },
+      {
+         "material": "thread resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "hunter:weapons:hunting_bow_2"
+      }
+   ]
+}

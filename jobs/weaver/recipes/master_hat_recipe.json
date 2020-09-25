@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 36,
+   "work_units": 20,
+   "recipe_name": "i18n(hunter:jobs.weaver.recipes.master_hat_recipe.recipe_name)",
+   "description": "i18n(hunter:jobs.weaver.recipes.master_hat_recipe.description)",
+   "flavor": "i18n(hunter:jobs.weaver.recipes.master_hat_recipe.flavor)",
+   "portrait": "/hunter/jobs/hunter/master_hat/master_hat.png",
+   "workshop": "stonehearth:weaver:workbench",
+   "level_requirement": 6,
+   "ingredients": [
+		{
+         "uri": "stonehearth:resources:deer_horn",
+         "count": 2
+      },
+		{
+         "material": "leather resource",
+         "count": 3
+      },
+      {
+         "material": "thread resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "hunter:hat:master"
+      }
+   ]
+}

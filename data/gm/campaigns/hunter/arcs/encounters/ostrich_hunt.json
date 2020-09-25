@@ -1,0 +1,42 @@
+{
+   "type": "encounter",
+   "encounter_type": "script",
+   "in_edge": "ostrich_hunt",
+   "out_edge": "cleanup_ostrich",
+   "script_info": {
+      "script": "hunter:game_master:script:wild_game_spawn",
+      "data": {
+         "spawn_range": {
+            "min": 50,
+            "max": 100
+         },
+         "on_searcher_failure": {
+            "destroy_tree": {
+               "root": "validate_ostrich",
+               "destroy_root": true
+            }
+         },
+         "mission": {
+            "npc_player_id": "animals",
+            "ctx_entity_registration_path": "ostrich_hunt",
+            "offset": { "x": 0, "y": 0, "z": 0 },
+            "spawn_range": {
+               "min": 120,
+               "max": 180
+            },
+            "members": {
+               "ostrich": {
+                  "from_population": {
+                     "role": "ostrich",
+                     "location": { "x": 0, "z": 0 },
+                     "min": 2,
+                     "max": 3,
+                     "range": 5
+                  },
+                  "combat_leash_range": 50
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,15 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(hunter:data.buffs.clean_shot_2.display_name)",
+   "description": "i18n(hunter:data.buffs.clean_shot_2.description)",
+   "icon": "/hunter/jobs/hunter/images/clean_shot_2.png",
+   "modifiers": {
+      "additive_weapon_range_modifier": {
+         "add": 10
+      },
+      "multiplicative_dmg_modifier": {
+         "add": 0.5
+      }
+   }
+}

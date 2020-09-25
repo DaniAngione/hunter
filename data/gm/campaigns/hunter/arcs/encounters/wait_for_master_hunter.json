@@ -1,0 +1,16 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait_for_requirements_met",
+   "in_edge": "wait_for_master_hunter",
+   "out_edge": "generate_weekly_hunt",
+   "wait_for_requirements_met_info": {
+      "requirements": {
+         "hunter_level_5": {
+            "item": "highest_job_level",
+            "type": "deny_if_less_than",
+            "value": 5,
+            "job_alias": "hunter:jobs:hunter"
+         }
+      }
+   }
+}

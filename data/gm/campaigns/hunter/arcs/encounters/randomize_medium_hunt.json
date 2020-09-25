@@ -23,12 +23,17 @@
          {
             "out_edge": "validate_fox",
             "type": "weighted_edge",
-            "weight": 4
+            "weight": 3
          },
          {
             "out_edge": "validate_racoon",
             "type": "weighted_edge",
-            "weight": 4
+            "weight": 3
+         },
+         {
+            "out_edge": "validate_duckduck",
+            "type": "weighted_edge",
+            "weight": 2
          }
       ]
    }

@@ -3,8 +3,56 @@
       "gm": {
          "campaigns": {
             "hunting": {
-               "wild_game_spawn": "Wild game has been tracked!"
+               "wild_game_spawn": "🏹 Wild game has been tracked! 🏹",
+               "weekly_hunt": {
+                  "common": {
+                     "bulletin_title": "🏹 An opportunity for poaching! 🏹",
+                     "accept": "✔️ Accept",
+                     "reject": "❌ Decline"
+                  },
+                  "small": {
+                     "title": "Short Hunting Expedition",
+                     "message": {
+                        "01": "Something something yeah",
+                        "02": "Something something yeah",
+                        "03": "Something something yeah",
+                        "04": "Something something yeah",
+                        "05": "Something something yeah",
+                        "06": "Something something yeah"
+                     }
+                  }
+               }
             }
+         }
+      },
+      "buffs": {
+         "hunting": {
+            "display_name": "Call of the Hunter",
+            "description": "Increases Speed, Courage and Stamina"
+         },
+         "clean_shot_1": {
+            "display_name": "Clean Kill (Rank 1)",
+            "description": "Slightly increases Damage and Attack Range"
+         },
+         "clean_shot_2": {
+            "display_name": "Clean Kill (Rank 2)",
+            "description": "Greatly increases Damage and Attack Range"
+         },
+         "dog_companion": {
+            "display_name": "Dog Companion",
+            "description": "This Hunter enjoys the company of a best friend."
+         },
+         "journeyman_hat": {
+            "display_name": "Journeyman's Knowledge",
+            "description": "Speed and Diligence are slightly improved."
+         },
+         "master_hat": {
+            "display_name": "Master's Knowledge",
+            "description": "Speed, Willpower and Diligence are increased."
+         },
+         "legendary_hat": {
+            "display_name": "Legendary Hunter",
+            "description": "Damage, Speed, Willpower and Diligence are greatly increased."
          }
       }
    },
@@ -83,6 +131,30 @@
                "recipe_name": "Hunter's Bow",
                "description": "Required to promote a hearthling into a Hunter.",
                "flavor": "A simpler bow that can be more easily handled. Good enough for wild animals"
+            },
+            "hunting_bow_2_recipe": {
+               "recipe_name": "Improved Hunting Bow",
+               "description": "A better and more reliable tool for the Hunter.",
+               "flavor": "Very effective against animals but not really reliable for combat."
+            }
+         }
+      },
+      "weaver": {
+         "recipes": {
+            "hunting_camp_recipe": {
+               "recipe_name": "Hunting Camp",
+               "description": "While placed, recently tracked animals will automatically be marked to be hunted.",
+               "flavor": "A Level 6 Hunter can also utilize a Hunting Camp's storage capabilities"
+            },
+            "journeyman_hat_recipe": {
+               "recipe_name": "Journeyman Hunter's Hat",
+               "description": "Can be worn by a Journeyman Hunter to slightly increase Diligence and Speed.",
+               "flavor": ""
+            },
+            "master_hat_recipe": {
+               "recipe_name": "Master Hunter's Hat",
+               "description": "Can be worn by a Master Hunter to increase Diligence, Willpower and Speed.",
+               "flavor": "Hunt or be hunted"
             }
          }
       },
@@ -106,6 +178,10 @@
                "description": "Required to promote a Trapper to a Hunter."
             }
          },
+         "hunting_bow_2": {
+            "display_name": "Improved Hunting Bow",
+            "description": "A better bow for hunting wildlife."
+         },
          "hunting_arrow": {
             "display_name": "Hunting Arrow",
             "description": "Providing for the town."
@@ -114,7 +190,7 @@
       "containers": {
          "hunting_camp": {
             "display_name": "Hunting Camp",
-            "description": "Automatically marks nearby tracked animals to be hunted. Used as a storage by Level 6 Hunters."
+            "description": "Automatically marks nearby tracked animals to be hunted."
          }
       }
    },
@@ -123,6 +199,16 @@
          "display_name": "Journeyman Hunter's Hat",
          "description": "Provides the Hunter with some extra attributes when worn.",
          "worn_description": "Slightly increasing Diligence and Speed."
+      },
+      "master_hat": {
+         "display_name": "Master Hunter's Hat",
+         "description": "Provides the Hunter with extra attributes when worn.",
+         "worn_description": "Increasing Diligence, Willpower and Speed."
+      },
+      "legendary_hat": {
+         "display_name": "Legendary Hunter's Hat",
+         "description": "The most epic trophy for the greatest hunter.",
+         "worn_description": "Greatly increasing Damage, Diligence, Willpower and Speed."
       }
    }
 }

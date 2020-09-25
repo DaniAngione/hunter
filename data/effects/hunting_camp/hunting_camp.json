@@ -1,0 +1,90 @@
+{
+   "type": "effect",
+   "tracks": {
+      "base_embers": {
+         "type": "cubemitter",
+         "cubemitter": "/hunter/data/horde/particles/hunting_camp/hunting_camp_base.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -1.25, "y": 0.1, "z": -1.25,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "base_dense": {
+         "type": "cubemitter",
+         "cubemitter": "/hunter/data/horde/particles/hunting_camp/hunting_camp_base_dense.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -1.25, "y": 0.2, "z": -1.25,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "glow": {
+         "type": "cubemitter",
+         "cubemitter": "/hunter/data/horde/particles/hunting_camp/hunting_camp_glow.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -1.25, "y": 0.4, "z": -1.25,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "glow_extreme": {
+         "type": "cubemitter",
+         "cubemitter": "/hunter/data/horde/particles/hunting_camp/hunting_camp_glow_extreme.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -1.25, "y": 0.4, "z": -1.25,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter": {
+         "type": "cubemitter",
+         "cubemitter": "/hunter/data/horde/particles/hunting_camp/hunting_camp_main.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -1.25, "y": 0.1, "z": -1.25,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "embers": {
+         "type": "cubemitter",
+         "cubemitter": "/hunter/data/horde/particles/hunting_camp/hunting_camp_embers.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -1.25, "y": 0.1, "z": -1.25,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "smoke": {
+         "type": "cubemitter",
+         "cubemitter": "/hunter/data/horde/particles/hunting_camp/hunting_camp_smoke.cubemitter.json",
+         "loop": true,
+         "transforms": { "x": -1.25, "y": 1, "z": -1.25,
+            "rx": 90,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "crackle_sound": {
+         "type": "sound_effect",
+         "loop": true,
+         "start_time": 400,
+         "min_distance": 40,
+         "falloff": 2.5,
+         "volume": 40,
+         "track": "stonehearth:sounds:firepit_loop_sound"
+      },
+      "light": {
+         "type": "light",
+         "light": "/stonehearth/data/horde/animatedlights/fire/fire.animatedlight.json",
+         "transforms": { "x": -1.25, "y": 1.5, "z": -1.25 },
+         "shadows": true
+      }
+   }
+}

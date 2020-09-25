@@ -6,6 +6,13 @@
                "recipe": "file(hunting_bow_recipe.json)"
             }
          }
+      },
+		"armor": {
+         "recipes": {
+            "hunting_bow_2": {
+               "recipe": "file(hunting_bow_2_recipe.json)"
+            }
+         }
       }
    }
 }

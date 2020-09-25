@@ -1,0 +1,23 @@
+{
+   "craftable_recipes": {
+      "utility": {
+         "ordinal": 10,
+         "name": "i18n(stonehearth:jobs.carpenter.recipes.utility_name)",
+         "recipes": {
+            "hunting_camp": {
+               "recipe": "file(hunting_camp_recipe.json)"
+            }
+         }
+      },
+		"clothing_armor": {
+         "recipes": {
+            "journeyman_hat": {
+               "recipe": "file(journeyman_hat_recipe.json)"
+            },
+            "master_hat": {
+               "recipe": "file(master_hat_recipe.json)"
+            }
+         }
+      }
+   }
+}

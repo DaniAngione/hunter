@@ -1,0 +1,20 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(hunting_bow_2_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(hunting_bow_2.png)",
+         "is_item": true,
+         "category": "weapons"
+      }
+   }
+}

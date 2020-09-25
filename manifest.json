@@ -17,10 +17,20 @@
       "actions:combat:loop_hunt_animal_melee": "file(ai/actions/loop_hunt_animal_melee_action.lua)",
       "actions:combat:loop_hunt_animal_ranged": "file(ai/actions/loop_hunt_animal_ranged_action.lua)",
       "ai_pack:hunting": "file(ai/packs/hunting_ai_pack.json)",
+      "buffs:clean_shot_1": "file(data/buffs/clean_shot_1/clean_shot_1_buff.json)",
+      "buffs:clean_shot_2": "file(data/buffs/clean_shot_2/clean_shot_2_buff.json)",
+      "buffs:dog_companion": "file(data/buffs/dog_companion/dog_companion_buff.json)",
+      "buffs:hunting": "file(data/buffs/hunting/hunting_buff.json)",
+      "buffs:journeyman_hat": "file(data/buffs/hat_buff/journeyman_hat_buff.json)",
+      "buffs:legendary_hat": "file(data/buffs/hat_buff/legendary_hat_buff.json)",
+      "buffs:master_hat": "file(data/buffs/hat_buff/master_hat_buff.json)",
       "containers:hunting_camp": "file(entities/containers/hunting_camp/hunting_camp.json)",
       "data:gm_index": "file(data/gm/gm_index.json)",
+      "effects:hunting_camp": "file(data/effects/hunting_camp/hunting_camp.json)",
       "game_master:script:wild_game_spawn": "file(services/server/game_master/controllers/scripts/wild_game_spawn_script.lua)",
       "hat:journeyman": "file(jobs/hunter/journeyman_hat/journeyman_hat.json)",
+      "hat:legendary": "file(jobs/hunter/legendary_hat/legendary_hat.json)",
+      "hat:master": "file(jobs/hunter/master_hat/master_hat.json)",
       "jobs:hunter": "file(jobs/hunter/hunter_description.json)",
       "jobs:index": "file(jobs/index.json)",
       "talisman": "file(entities/weapons/hunting_bow/hunter_talisman.json)",
@@ -28,7 +38,8 @@
       "traits:passion_hunter": "file(data/traits/passion_hunter/passion_hunter_trait.json)",
       "traits_index": "file(data/traits/traits_index.json)",
       "weapons:hunting_arrow": "file(entities/weapons/hunting_arrow/hunting_arrow.json)",
-      "weapons:hunting_bow": "file(entities/weapons/hunting_bow/hunting_bow.json)"
+      "weapons:hunting_bow": "file(entities/weapons/hunting_bow/hunting_bow.json)",
+      "weapons:hunting_bow_2": "file(entities/weapons/hunting_bow_2/hunting_bow_2.json)"
    },
    "mixintos": {
       "stonehearth:traits_index": "hunter:traits_index",
@@ -36,6 +47,7 @@
       "stonehearth:data:gm_index": "hunter:data:gm_index",
       "stonehearth/data/ui/start_menu.json": "file(data/ui/start_menu.json)",
       "northern_alliance/ui/manifest.json": "file(ui/northern_alliance_manifest.json)",
+      "stonehearth/jobs/weaver/recipes/recipes.json": "file(jobs/weaver/recipes/recipes.json)",
       "stonehearth/jobs/carpenter/recipes/recipes.json": [
          "file(jobs/carpenter/recipes/recipes.json)",
          "/trapper_plus/jobs/carpenter/recipes/hunter_recipes.json"

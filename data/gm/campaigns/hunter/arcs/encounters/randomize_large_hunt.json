@@ -23,7 +23,12 @@
          {
             "out_edge": "validate_boar",
             "type": "weighted_edge",
-            "weight": 4
+            "weight": 5
+         },
+         {
+            "out_edge": "validate_ostrich",
+            "type": "weighted_edge",
+            "weight": 3
          }
       ]
    }
