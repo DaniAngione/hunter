@@ -2,10 +2,9 @@
    "harvest_menu": {
       "items": {
          "box_hunt": {
-            "mixintypes": {
-					"required_job": "remove",
-					"required_job_text": "remove"
-				}
+				"description": "i18n(hunter:ui.game.menu.harvest_menu.items.box_hunt.na_description)",
+				"required_job": "",
+				"required_job_text": ""
          }
       }
    }

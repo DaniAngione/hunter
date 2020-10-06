@@ -1,0 +1,7 @@
+{
+   "type": "buff",
+   "axis": "debuff",
+   "duration": "2h",
+   "repeat_add_action": "renew_duration",
+   "invisible_to_player": true
+}

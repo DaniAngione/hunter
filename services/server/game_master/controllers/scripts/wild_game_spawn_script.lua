@@ -1,3 +1,4 @@
+local constants = require 'stonehearth.constants'
 local game_master_lib = require 'stonehearth.lib.game_master.game_master_lib'
 local ResourceCallHandler = require 'hunter.call_handlers.resource_call_handler'
 local Point3 = _radiant.csg.Point3
@@ -143,7 +144,7 @@ function WildGameSpawn:_create_party(ctx, info)
 				if hunting_camps ~= {} and camp_found == nil then
 					for _, hunting_camp in ipairs(hunting_camps) do
 						local distance = radiant.entities.distance_between_entities(hunting_camp, member)
-						if distance and distance < 120 then
+						if distance and distance < stonehearth.constants.hunter.HUNTING_CAMP_RANGE then
 							camp_found = true
 							break
 						else
@@ -161,7 +162,8 @@ function WildGameSpawn:_create_party(ctx, info)
 						:set_data({
 						zoom_to_entity = member,
 						title = "i18n(hunter:data.gm.campaigns.hunting.wild_game_spawn)"
-					})
+						})
+						:set_active_duration('4h')
 					bulletin_created = true
 				end
          end

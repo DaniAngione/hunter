@@ -1,0 +1,11 @@
+{
+   "type": "ai_pack",
+   "actions": [
+      "hunter:actions:combat:hunt_animal_dog",
+      "hunter:actions:combat:loop_hunt_animal_melee_dog"
+   ],
+   "task_groups": [
+      "stonehearth:task_groups:solo:combat_unit_control",
+      "hunter:task_groups:hunting_dog"
+   ]
+}

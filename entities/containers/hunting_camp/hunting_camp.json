@@ -7,7 +7,8 @@
          "capacity": 48
       },
       "stonehearth:lamp": {
-         "light_effect": "hunter:effects:hunting_camp"
+         "light_effect": "hunter:effects:hunting_camp",
+         "buff_source": true
       },
       "stonehearth:entity_forms": {
          "iconic_form": "file(hunting_camp_iconic.json)",
@@ -37,6 +38,13 @@
       "stonehearth:mount": {
          "mounted_posture": "stonehearth:sitting_on_chair",
          "mount_offset": { "x": 1.16, "y": 0.16, "z": -1.4 }
+      },
+      "sensor_list": {
+         "sensors": {
+            "warmth": {
+               "radius": 8
+            }
+         }
       }
    },
    "entity_data": {

@@ -4,6 +4,7 @@
    "rarity": "common",
    "in_edge": "weekly_hunt_small",
    "dialog_tree_info": {
+      "expiration_timeout": "1d",
       "start_node": "msg1",
       "nodes": {
          "msg1": {

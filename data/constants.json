@@ -1,0 +1,11 @@
+{
+   "type": "index",
+   "constants": {
+      "hunter": {
+			"HUNTING_CAMP_RANGE": 120,
+			"MIN_XP_PER_KILL": 5,
+			"MAX_XP_PER_KILL": 70,
+			"MAX_HEALTH_DIVIDED_FOR": 2
+		}
+   }
+}

@@ -23,6 +23,12 @@ function HunterLoopHuntAnimalRanged:start_thinking(ai, entity, args)
       -- no ranged attacks
       return
    end
+   
+   local marked = radiant.entities.has_buff(args.target, 'hunter:buffs:hunter_mark')
+   if marked ~= true then
+      radiant.entities.add_buff(args.target, 'hunter:buffs:hunter_mark')
+      stonehearth.ai:reconsider_entity(args.target, 'reconsidering entity for hunting dogs')
+   end
 
    ai:set_think_output()
 end

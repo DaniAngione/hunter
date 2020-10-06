@@ -1,0 +1,22 @@
+{
+   "type": "buff",
+   "axis": "debuff",
+   "display_name": "i18n(hunter:data.buffs.sicd.display_name)",
+   "description": "i18n(hunter:data.buffs.sicd.description)",
+   "icon": "file(sicd_buff.png)",
+   "duration": "30m",
+   "repeat_add_action": "renew_duration",
+   "modifiers": {
+      "speed": {
+         "max": 0
+      }
+   },
+   "injected_ai": {
+      "actions": [
+         "stonehearth:actions:compelled_behaviors:struggle"
+      ]
+   },
+   "tags": [
+      "snared"
+   ]
+}

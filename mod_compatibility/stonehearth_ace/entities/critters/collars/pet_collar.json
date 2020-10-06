@@ -1,0 +1,14 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {
+         "injected_ai": {
+            "actions": [
+               "stonehearth_ace:actions:pet:sleep",
+               "stonehearth_ace:actions:pet:sleep_in_bed",
+               "stonehearth_ace:actions:pet:sleep_in_bed_adjacent"
+            ]
+         }
+      }
+   }
+}

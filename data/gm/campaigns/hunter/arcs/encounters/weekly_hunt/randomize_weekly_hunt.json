@@ -1,0 +1,65 @@
+{
+   "type": "encounter",
+   "encounter_type": "none",
+   "in_edge": "randomize_weekly_hunt",
+   "can_start": {
+      "test_1": {
+         "hunter_level_5": {
+            "item": "highest_job_level",
+            "type": "deny_if_less_than",
+            "value": 5,
+            "job_alias": "hunter:jobs:hunter"
+         }
+      }
+   },
+   "out_edge": {
+      "type": "trigger_one",
+      "out_edges": [
+         {
+            "out_edge": "weekly_hunt_small",
+            "type": "weighted_edge",
+            "weight": 6
+         },
+         {
+            "out_edge": "weekly_hunt_medium",
+            "type": "weighted_edge",
+            "weight": 8
+         },
+         {
+            "out_edge": "weekly_hunt_large",
+            "type": "weighted_edge",
+            "weight": 5
+         },
+         {
+            "out_edge": "weekly_hunt_huge",
+            "type": "weighted_edge",
+            "weight": 3
+         },
+         {
+            "out_edge": "weekly_hunt_wolves",
+            "type": "weighted_edge",
+            "weight": 2
+         },
+         {
+            "out_edge": "weekly_hunt_cougars",
+            "type": "weighted_edge",
+            "weight": 2
+         },
+         {
+            "out_edge": "weekly_hunt_alligators",
+            "type": "weighted_edge",
+            "weight": 2
+         },
+         {
+            "out_edge": "weekly_hunt_zilla",
+            "type": "weighted_edge",
+            "weight": 1
+         },
+         {
+            "out_edge": "weekly_hunt_legendary",
+            "type": "weighted_edge",
+            "weight": 1
+         }
+      ]
+   }
+}

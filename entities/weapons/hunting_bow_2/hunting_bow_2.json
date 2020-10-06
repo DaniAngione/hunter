@@ -19,10 +19,25 @@
             "stonehearth:combat",
             "stonehearth:patrol"
          ],
-         "ilevel": 23
+         "ilevel": 23,
+         "required_job_level": 4,
+         "roles": [
+            "hunter_job"
+         ],
+         "equipment_types": [
+            "bow"
+         ]
       }
    },
    "entity_data": {
+      "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "hunter_mark": {
+               "uri": "hunter:buffs:hunter_mark",
+               "chance": 1
+            }
+         }
+      },
       "stonehearth:combat:weapon_data": {
          "base_damage": 23,
          "base_ranged_damage": 23,

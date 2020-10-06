@@ -1,0 +1,12 @@
+{
+	"type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {
+         "injected_ai": {
+            "ai_packs": [
+               "hunter:ai_pack:hunting"
+            ]
+         }
+      }
+   }
+}

@@ -49,7 +49,11 @@
       "cleanup_duckduck": "file(encounters/cleanup_duckduck.json)",
 		
 		"generate_weekly_hunt": "file(encounters/generate_weekly_hunt.json)",
+		"randomize_weekly_hunt": "file(encounters/weekly_hunt/randomize_weekly_hunt.json)",	
+		"weekly_hunt_reject": "file(encounters/weekly_hunt/weekly_hunt_reject.json)",
 		
-		"weekly_hunt_small": "file(encounters/weekly_hunt/weekly_hunt_small.json)"
+		"weekly_hunt_small": "file(encounters/weekly_hunt/weekly_hunt_small.json)",
+		"weekly_hunt_small_quest": "file(encounters/weekly_hunt/weekly_hunt_small_quest.json)",
+		"weekly_hunt_small_reward": "file(encounters/weekly_hunt/weekly_hunt_small_reward.json)"
    }
 }

@@ -1,0 +1,38 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "no_drop": true,
+         "injected_ai": {
+            "actions": [
+               "stonehearth:actions:sit_on_ground",
+               "stonehearth:actions:goto_sleep",
+               "stonehearth:actions:sleep_when_exhausted",
+               "stonehearth:actions:pet:pet_sleep_on_ground",
+               "stonehearth:actions:pet:pet_sleep_near_owners_bed",
+               "stonehearth:actions:pet:pet_sleep_on_ground_adjacent",
+               "stonehearth:actions:run_sleep_effect",
+               "stonehearth:actions:wait_for_expendable_resource_above",
+               "stonehearth:actions:pet:check_out_random_friend",
+               "stonehearth:actions:pet:get_off_ladder",
+               "stonehearth:actions:pet:run_in_circles",
+               "stonehearth:actions:pet:follow_owner",
+               "stonehearth:actions:pet:pet_run_to_safety",
+               "stonehearth:actions:pet:pet_wait_at_safety_point"
+            ],
+            "ai_packs": [
+               "stonehearth:ai_pack:conversation"
+            ],
+            "observers": [
+               "stonehearth:observers:sleepiness"
+            ],
+            "components": [
+               "stonehearth:conversation",
+               "stonehearth:animal_social"
+            ]
+         }
+      }
+   }
+}

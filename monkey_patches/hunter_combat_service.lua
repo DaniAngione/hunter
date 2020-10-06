@@ -1,3 +1,4 @@
+local constants = require 'stonehearth.constants'
 local Point3 = _radiant.csg.Point3
 local rng = _radiant.math.get_default_rng()
 local log = radiant.log.create_logger('combat')
@@ -25,7 +26,12 @@ function HunterCombatService:distribute_hunter_exp(attacker, target)
       return
    end
 	
-	if attacker:get_component('stonehearth:job'):get_job_uri() ~= 'hunter:jobs:hunter' then
+	local job_component = attacker:get_component('stonehearth:job') or nil
+	if not job_component then
+		return
+	end
+	
+	if job_component:get_job_uri() ~= 'hunter:jobs:hunter' then
 		return
 	elseif attacker:get_component('stonehearth:job'):is_max_level() then
 		return
@@ -40,7 +46,7 @@ function HunterCombatService:distribute_hunter_exp(attacker, target)
 		local experience = 0
 		
 		if max_health then
-			experience = math.max(5, math.min(math.floor(max_health / 2), 60))
+			experience = math.max(stonehearth.constants.hunter.MIN_XP_PER_KILL, math.min(math.floor(max_health / stonehearth.constants.hunter.MAX_HEALTH_DIVIDED_FOR), stonehearth.constants.hunter.MAX_XP_PER_KILL))
 			attacker:get_component('stonehearth:job'):add_exp(experience)
 		end
 	else
@@ -48,7 +54,7 @@ function HunterCombatService:distribute_hunter_exp(attacker, target)
    end
 end
 
---[[function HunterCombatService:_handle_loot_drop(attacker, target)
+function HunterCombatService:_handle_loot_drop(attacker, target)
    local is_attacker_npc = stonehearth.player:is_npc(attacker)
    local is_target_npc = stonehearth.player:is_npc(target)
    if is_attacker_npc and is_target_npc then
@@ -57,10 +63,15 @@ end
       local loot_drops_component = target:get_component('stonehearth:loot_drops')
       if loot_drops_component then
          local player_id = radiant.entities.get_player_id(attacker)
-         loot_drops_component:set_auto_loot_player_id(player_id)
+			local job_component = attacker:get_component('stonehearth:job') or nil
+			if job_component and job_component:get_job_uri() == 'hunter:jobs:hunter' and job_component:is_max_level() then
+				loot_drops_component:set_hunting_camp_loot(player_id)
+			else			
+				loot_drops_component:set_auto_loot_player_id(player_id)
+			end
       end
    end
-end]]--
+end
 
 -- Modify this function from ACE for compatibility:
 function HunterCombatService:_record_kill_stats(attacker, target, units)
@@ -73,7 +84,9 @@ function HunterCombatService:_record_kill_stats(attacker, target, units)
 
       for _, unit in pairs(units) do
          local stance = self:get_stance(unit)
-         if stance == 'defensive' or stance == 'aggressive' or attacker:get_component('stonehearth:job'):get_job_uri() == 'hunter:jobs:hunter' then
+			if attacker:get_component('stonehearth:pet') then
+				return
+         elseif stance == 'defensive' or stance == 'aggressive' or attacker:get_component('stonehearth:job'):get_job_uri() == 'hunter:jobs:hunter' then
             self:_record_kill_stats_for_entity(unit, unit == attacker and 'kills' or 'assists', enemy_player, enemy_category, enemy_specifier, true)
          end
       end
