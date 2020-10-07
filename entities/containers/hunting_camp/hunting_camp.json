@@ -4,6 +4,7 @@
    "components": {
       "stonehearth:storage": {
          "type": "output_crate",
+         "filter_list": "hunter:ui:empty:filters",
          "capacity": 48
       },
       "stonehearth:lamp": {

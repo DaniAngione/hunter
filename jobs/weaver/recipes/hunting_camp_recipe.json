@@ -7,6 +7,7 @@
    "flavor": "i18n(hunter:jobs.weaver.recipes.hunting_camp_recipe.flavor)",
    "portrait": "/hunter/entities/containers/hunting_camp/hunting_camp.png",
    "workshop": "stonehearth:weaver:workbench",
+	"manual_unlock": true,
    "level_requirement": 4,
    "ingredients": [
       {

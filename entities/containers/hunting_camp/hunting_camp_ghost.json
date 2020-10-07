@@ -27,7 +27,8 @@
             "furniture",
             "crafted",
             "hunting_camp",
-            "container",
+            "containers",
+            "crate",
             "stockpile_furniture"
          ]
       }

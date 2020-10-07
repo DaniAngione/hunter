@@ -9,6 +9,7 @@
          "animation_table": "/stonehearth/data/rigs/entities/critters/wolf",
          "scale": 0.11
       },
+      "default_stance": "passive",
       "sensor_list": {
          "sensors": {
             "sight": {
@@ -53,6 +54,10 @@
          "speed": {
             "type": "basic",
             "value": 130
+         },
+         "muscle": {
+            "type": "basic",
+            "value": 0
          }
       }
    },
@@ -61,7 +66,7 @@
          "inflictable_debuffs": {
             "sicd": {
                "uri": "hunter:buffs:sicd",
-               "chance": 0.4
+               "chance": 0.6
             }
          }
       },
@@ -77,6 +82,9 @@
          "display_name": "i18n(hunter:entities.dog_companion.display_name)",
          "description": "i18n(hunter:entities.dog_companion.description)",
          "icon": "file(dog_companion.png)"
+      },
+      "stonehearth:target_type": {
+         "target_type": "dog_companion"
       }
    }
 }

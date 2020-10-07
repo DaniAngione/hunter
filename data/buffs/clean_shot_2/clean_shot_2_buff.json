@@ -9,7 +9,7 @@
          "add": 10
       },
       "multiplicative_dmg_modifier": {
-         "add": 0.5
+         "add": 0.9
       }
    }
 }

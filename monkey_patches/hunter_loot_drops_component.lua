@@ -80,8 +80,6 @@ function HunterLootDropsComponent:_on_kill_event(kill_data)
 				for id, entity in pairs(spawned_entities) do
 					radiant.terrain.remove_entity(entity)
 					destination:add_item(entity, true, self._sv.auto_loot_player_id)
-					stonehearth.inventory:get_inventory(self._sv.auto_loot_player_id)
-													:add_item_if_not_full(entity, self._sv._hunting_camp_loot)
 				end
 			end
       end
@@ -145,8 +143,6 @@ function HunterLootDropsComponent:_on_kill_event_ace(kill_data)
 				for id, entity in pairs(spawned_entities) do
 					radiant.terrain.remove_entity(entity)
 					destination:add_item(entity, true, self._sv.auto_loot_player_id)
-					stonehearth.inventory:get_inventory(self._sv.auto_loot_player_id)
-													:add_item_if_not_full(entity, self._sv._hunting_camp_loot)
 				end
 			end
       end

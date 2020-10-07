@@ -41,12 +41,14 @@
       "hat:legendary": "file(jobs/hunter/legendary_hat/legendary_hat.json)",
       "hat:master": "file(jobs/hunter/master_hat/master_hat.json)",
       "jobs:hunter": "file(jobs/hunter/hunter_description.json)",
+		"jobs:hunter:recipes": "file(jobs/hunter/hunter_recipes.json)",
       "jobs:index": "file(jobs/index.json)",
       "talisman": "file(entities/weapons/hunting_bow/hunter_talisman.json)",
       "task_groups:hunting": "file(ai/task_groups/hunting_task_group.lua)",
       "task_groups:hunting_dog": "file(ai/task_groups/hunting_dog_task_group.lua)",
       "traits:passion_hunter": "file(data/traits/passion_hunter/passion_hunter_trait.json)",
       "traits_index": "file(data/traits/traits_index.json)",
+      "ui:empty:filters": "file(ui/data/empty_filters.json)",
       "weapons:animals:dog_teeth": "file(entities/weapons/animals/dog_teeth/dog_teeth.json)",
       "weapons:hunting_arrow": "file(entities/weapons/hunting_arrow/hunting_arrow.json)",
       "weapons:hunting_bow": "file(entities/weapons/hunting_bow/hunting_bow.json)",
@@ -58,24 +60,22 @@
       "stonehearth:jobs:index": "hunter:jobs:index",
       "stonehearth:data:gm_index": "hunter:data:gm_index",
       "stonehearth/data/ui/start_menu.json": "file(data/ui/start_menu.json)",
-		"stonehearth/jobs/weaver/recipes/recipes.json": "file(jobs/weaver/recipes/recipes.json)",
-		
-      "northern_alliance/ui/manifest.json": "file(ui/northern_alliance_manifest.json)",     
-		"northern_alliance/jobs/archer/na_archer_abilities.json": "file(jobs/archer/na_archer_abilities.json)",
-		
+      "stonehearth/jobs/weaver/recipes/recipes.json": "file(jobs/weaver/recipes/recipes.json)",
+      "northern_alliance/ui/manifest.json": "file(ui/northern_alliance_manifest.json)",
+      "northern_alliance/jobs/archer/na_archer_abilities.json": "file(jobs/archer/na_archer_abilities.json)",
       "stonehearth/jobs/carpenter/recipes/recipes.json": [
          "file(jobs/carpenter/recipes/recipes.json)",
          "/trapper_plus/jobs/carpenter/recipes/hunter_recipes.json"
       ],
       "trapper_plus/jobs/trapper/recipes/recipes.json": "file(jobs/trapper/recipes/recipes.json)",
-		
-		"hunter:dog_collar": "/stonehearth_ace/entities/critters/collars/hunter_pet_collar.json"
+      "hunter:dog_collar": "/stonehearth_ace/entities/critters/collars/hunter_pet_collar.json",
+		"hunter/jobs/weaver/recipes/master_hat_recipe.json": "/stonehearth_ace/jobs/weaver/recipes/master_hat_recipe.json"
    },
    "overrides": {
       "trapper_plus/jobs/carpenter/recipes/hunter_recipes.json": "file(mod_compatibility/trapper_plus/jobs/carpenter/recipes/recipes.json)",
-		
-		"stonehearth_ace/entities/critters/collars/hunter_pet_collar.json": "file(mod_compatibility/stonehearth_ace/entities/critters/collars/pet_collar.json)",
-		"stonehearth_ace/jobs/archer/archer_abilities/na_archer_abilities.json": "file(mod_compatibility/stonehearth_ace/jobs/archer/archer_abilities/na_archer_abilities.json)"
+      "stonehearth_ace/entities/critters/collars/hunter_pet_collar.json": "file(mod_compatibility/stonehearth_ace/entities/critters/collars/pet_collar.json)",
+      "stonehearth_ace/jobs/archer/archer_abilities/na_archer_abilities.json": "file(mod_compatibility/stonehearth_ace/jobs/archer/archer_abilities/na_archer_abilities.json)",
+		"stonehearth_ace/jobs/weaver/recipes/master_hat_recipe.json": "file(mod_compatibility/stonehearth_ace/jobs/weaver/recipes/master_hat_recipe.json)"
    },
    "components": {
       "dog_companion": "file(components/dog_companion/dog_companion_component.lua)"

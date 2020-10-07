@@ -1,0 +1,7 @@
+{
+    "stonehearth:kingdoms:ascendancy": {
+        "stonehearth:jobs:weaver": {           
+            "utility:hunting_camp": true
+        }
+    }
+}

@@ -32,10 +32,10 @@
                   "medium": {
                      "title": "Hunting Expedition",
                      "message": {
-                        "01": "<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
-                        "02": "<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
-                        "03": "<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
-                        "04": "<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
+                        "01": "A river not far from our town has plenty of vegetation around it and must be a very attractive place for small or medium animals. Going up the river for a couple of days might prove itself a profitable endeavor for acquiring pelts and meat - and the journey back can be shortened by rafting down its currents. <p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
+                        "02": "There's a small woodland a day or so from our town that must be teeming with wildlife at this time of the year. It's possible that on a single afternoon a good amount of game can be hunted and then returned in the following morning. <p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
+                        "03": "A traveling merchant has informed our town that they've spotted many animals down the road towards the capital, just a couple of days from us. Maybe this is a good opportunity to go on a hunting trip and possibly even get a ride back home with a caravan.<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
+                        "04": "Neighbors from a nearby village have informed us that there seems to be a pack of animals roaming through their territory and they do not really possess the means to deal with them now. Maybe we could take this opportunity and share some of the trophies with them. We'd bring most of the goods home, of course.<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
                         "05": "<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
                         "06": "<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
                         "07": "<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
@@ -65,9 +65,9 @@
                   "wolves": {
                      "title": "Keeping Wolves at Bay",
                      "message": {
-                        "01": "<p>This expedition requires a master Hunter (Level 5+) and should last four days or so.",
-                        "02": "<p>This expedition requires a master Hunter (Level 5+) and should last four days or so.",
-                        "03": "<p>This expedition requires a master Hunter (Level 5+) and should last four days or so."
+                        "01": "<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
+                        "02": "<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
+                        "03": "<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
                      }
                   },
                   "cougars": {
@@ -81,17 +81,17 @@
                   "alligators": {
                      "title": "Predators of the Wetlands",
                      "message": {
-                        "01": "<p>This expedition requires a master Hunter (Level 5+) and should last three days or so.",
-                        "02": "<p>This expedition requires a master Hunter (Level 5+) and should last three days or so.",
-                        "03": "<p>This expedition requires a master Hunter (Level 5+) and should last three days or so."
+                        "01": "<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
+                        "02": "<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
+                        "03": "<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
                      }
                   },
                   "zilla": {
                      "title": "The King of All Lizards",
                      "message": {
-                        "01": "<p>This expedition requires a grandmaster Hunter (Level 6) and will definitely last anything between three to five days.",
-                        "02": "<p>This expedition requires a grandmaster Hunter (Level 6) and will definitely last anything between three to five days.",
-                        "03": "<p>This expedition requires a grandmaster Hunter (Level 6) and will definitely last anything between three to five days."
+                        "01": "<p>This expedition requires a grandmaster Hunter (Level 6) and will definitely last anything between four to six days.",
+                        "02": "<p>This expedition requires a grandmaster Hunter (Level 6) and will definitely last anything between four to six days.",
+                        "03": "<p>This expedition requires a grandmaster Hunter (Level 6) and will definitely last anything between four to six days."
                      }
                   },
                   "legendary": {
@@ -229,7 +229,7 @@
          "recipes": {
             "hunting_camp_recipe": {
                "recipe_name": "Hunting Camp",
-               "description": "While placed, recently tracked animals will automatically be marked to be hunted.",
+               "description": "While placed, recently tracked animals inside its range will be automatically marked to be hunted.",
                "flavor": "A Level 6 Hunter can also utilize a Hunting Camp's storage capabilities"
             },
             "journeyman_hat_recipe": {
