@@ -79,6 +79,7 @@
                "icon": "file(images/tracking_2.png)"
             },
             {
+					"type": "unlock_hunting_camp",
                "level": 3,
                "id": "camping",
                "name": "i18n(hunter:jobs.hunter.hunter_description.level_3_data.camping_perk.name)",

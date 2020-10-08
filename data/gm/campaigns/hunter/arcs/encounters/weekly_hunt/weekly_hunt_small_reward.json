@@ -21,42 +21,66 @@
       },
       "loot_table": {
          "entries": {
-            "meat_definite": {
-               "num_rolls": 1,
+            "pelts": {
+               "num_rolls": 8,
                "items": {
-                  "sausage": {
-                     "uri": "stonehearth:food:roast_sausage",
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "red_fox_pelt": {
+                     "uri": "stonehearth:resources:rabbit_pelt",
+                     "weight": 3
+                  },
+                  "racoon_pelt": {
+                     "uri": "stonehearth:resources:squirrel_pelt",
+                     "weight": 2
+                  },
+                  "duckduck_feathers": {
+                     "uri": "stonehearth:resources:feathers:duckduck_feathers",
+                     "weight": 0.4
+                  },
+                  "ostrich_feathers": {
+                     "uri": "stonehearth:resources:feathers:ostrich_feathers",
+                     "weight": 0.4
+                  }
+               }
+            },
+            "large meat": {
+               "num_rolls": 4,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 4
+                  },
+                  "poultry_large": {
+                     "uri": "stonehearth:food:poultry_large",
                      "weight": 1
                   }
                }
             },
-            "bread_definite": {
-               "num_rolls": 1,
+            "jerky": {
+               "num_rolls": 12,
                "items": {
-                  "peasant_bread": {
-                     "uri": "stonehearth:food:peasant_bread",
+                  "none": {
+                     "uri": "",
                      "weight": 1
                   },
-                  "corn_bread": {
-                     "uri": "stonehearth:food:corn_bread",
-                     "weight": 1
-                  }
-               }
-            },
-            "variety": {
-               "num_rolls": 5,
-               "items": {
-                  "sausage": {
-                     "uri": "stonehearth:food:roast_sausage",
-                     "weight": 1
+                  "rabbit_jerky": {
+                     "uri": "stonehearth:rabbit_jerky",
+                     "weight": 3
                   },
-                  "peasant_bread": {
-                     "uri": "stonehearth:food:peasant_bread",
-                     "weight": 1
+                  "squirrel_jerky": {
+                     "uri": "stonehearth:squirrel_jerky",
+                     "weight": 2
                   },
-                  "corn_bread": {
-                     "uri": "stonehearth:food:corn_bread",
-                     "weight": 1
+                  "duckduck_jerky": {
+                     "uri": "stonehearth:duckduck_jerky",
+                     "weight": 0.4
+                  },
+                  "ostrich_jerky": {
+                     "uri": "stonehearth:ostrich_jerky",
+                     "weight": 0.4
                   }
                }
             }

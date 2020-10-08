@@ -1,0 +1,49 @@
+{
+   "donation_dialog_info": {
+      "loot_table": {
+         "entries": {
+            "pelts": {
+               "items": {
+                  "wild_cattle_pelt": {
+                     "uri": "stonehearth_ace:resources:wild_cattle_pelt",
+                     "weight": 1
+                  }
+               }
+            },
+            "large meat": {
+               "items": {
+                  "steak": {
+                     "uri": "stonehearth_ace:food:steak",
+                     "weight": 1
+                  }
+               }
+            },
+            "jerky": {
+               "items": {
+                  "beef_jerky": {
+                     "uri": "stonehearth_ace:beef_jerky",
+                     "weight": 1
+                  }
+               }
+            },
+				"bone": {
+					"num_rolls": 18,
+					"items": {
+						"none": {
+                     "uri": "",
+                     "weight": 2
+                  },
+                  "bone_material": {
+                     "uri": "stonehearth_ace:resources:bone:bone_material",
+                     "weight": 4
+                  },
+                  "bone_big": {
+                     "uri": "stonehearth_ace:resources:bone:bone_big",
+                     "weight": 1
+                  }
+               }
+				}
+         }
+      }
+   }
+}

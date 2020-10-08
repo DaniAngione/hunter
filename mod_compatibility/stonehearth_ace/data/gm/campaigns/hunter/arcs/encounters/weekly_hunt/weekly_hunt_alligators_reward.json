@@ -1,0 +1,16 @@
+{
+   "donation_dialog_info": {
+      "loot_table": {
+         "entries": {
+				"bone": {
+					"items": {
+                  "bone_material": {
+                     "uri": "stonehearth_ace:resources:bone:bone_material",
+                     "weight": 3
+                  }
+               }
+				}
+         }
+      }
+   }
+}

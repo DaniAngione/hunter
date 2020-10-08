@@ -1,0 +1,53 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation_dialog",
+   "in_edge": "weekly_hunt_wolves_reward",
+   "out_edge": "weekly_hunt_reject",
+   "donation_dialog_info": {
+      "expiration_timeout": "2d",
+      "nodes": {
+         "simple_message": {
+            "bulletin": {
+               "title": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.bulletin_title_return)",
+               "dialog_title": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.wolves.title)",
+               "message": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.return)",
+               "choices": {
+                  "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.accept_reward)": {
+                     "result": "accept"
+                  }
+               }
+            }
+         }
+      },
+      "loot_table": {
+         "entries": {
+            "pelts": {
+               "num_rolls": 12,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "pelt": {
+                     "uri": "stonehearth:resources:wolf_pelt",
+                     "weight": 2
+                  }
+               }
+            },
+            "variety": {
+               "num_rolls": 18,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "jerky": {
+                     "uri": "stonehearth:wolf_jerky",
+                     "weight": 2
+                  }
+               }
+            }
+         }
+      }
+   }
+}

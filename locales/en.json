@@ -11,12 +11,14 @@
                      "reject": "❌ Decline",
                      "accept_reward": "Welcome back!",
                      "bulletin_title_return": "🏹 The Hunter returns! 🏹",
-                     "return": "The Hunter returns bringing the spoils of their victories in distant lands:",
+                     "return": "The Hunter returns bringing the spoils of their victories in distant lands:<font size=-4>",
                      "quest_text_level_2": "Select a Hunter (Level 2+) to go on this expedition.",
                      "quest_text_level_3": "Select a Hunter (Level 3+) to go on this expedition.",
+                     "quest_text_level_4": "Select a Hunter (Level 4+) to go on this expedition.",
                      "quest_text_level_5": "Select a Hunter (Level 5+) to go on this expedition.",
                      "quest_text_level_6": "Select a Hunter (Level 6) to go on this expedition.",
-                     "quest_bulletin_title": "🏹 Select a Hunter 🏹"
+                     "quest_bulletin_title": "🏹 Select a Hunter 🏹",
+							"large_reward": "...and some more!"
                   },
                   "small": {
                      "title": "Short Hunting Expedition",
@@ -36,70 +38,70 @@
                         "02": "There's a small woodland a day or so from our town that must be teeming with wildlife at this time of the year. It's possible that on a single afternoon a good amount of game can be hunted and then returned in the following morning. <p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
                         "03": "A traveling merchant has informed our town that they've spotted many animals down the road towards the capital, just a couple of days from us. Maybe this is a good opportunity to go on a hunting trip and possibly even get a ride back home with a caravan.<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
                         "04": "Neighbors from a nearby village have informed us that there seems to be a pack of animals roaming through their territory and they do not really possess the means to deal with them now. Maybe we could take this opportunity and share some of the trophies with them. We'd bring most of the goods home, of course.<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
-                        "05": "<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
-                        "06": "<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
-                        "07": "<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
-                        "08": "<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days."
+                        "05": "Some tracks leading into the wild indicate that a sizable group of animals has passed through our lands recently. They're not so fresh, however, and chasing them might require a short trip - the benefits will probably compensate the effort, though.<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
+                        "06": "Poachers from different towns have been exploiting a generous shrub land not so far from here. There's plenty for everyone and we could probably get some resources, pelts and meat for ourselves if we spend a couple of days on it as well.<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
+                        "07": "There is a wild, untamed island nearby with lots of potential for hunting and fishing. Settling a small camp for trapping these animals might be a lot of work, however a single hunter could easily sail there and back with some game. Shouldn't take so long and is basically free of risks.<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days.",
+                        "08": "Migrants heading for another town have mentioned the presence of many animals grazing on a sea of hills not so far from us. Traveling there alone might take a day or so, but it shouldn't be difficult to locate them and bring home some extra supplies.<p>This expedition requires at least a journeyman Hunter (Level 3+) and should last a couple of days."
                      }
                   },
                   "large": {
                      "title": "Long Hunting Expedition",
                      "message": {
-                        "01": "<p>This expedition requires a master Hunter (Level 5+) and should last three days or more.",
-                        "02": "<p>This expedition requires a master Hunter (Level 5+) and should last three days or more.",
-                        "03": "<p>This expedition requires a master Hunter (Level 5+) and should last three days or more.",
-                        "04": "<p>This expedition requires a master Hunter (Level 5+) and should last three days or more.",
-                        "05": "<p>This expedition requires a master Hunter (Level 5+) and should last three days or more.",
-                        "06": "<p>This expedition requires a master Hunter (Level 5+) and should last three days or more."
+                        "01": "There is a very famous woodland inside the borders of the realm, known for its generous bounty and easy prey. A skilled and willing hunter could definitely invest some time into the journey but bring back resources, furs and meat pieces from big game. It can be worth it, even if a bit distant.<p>This expedition requires a master Hunter (Level 4+) and should last three days or more.",
+                        "02": "The grazelands down by the river valleys are a popular and profitable hunting ground around this time of the year. They're not really close but the travel can be shortened by boat and roads. A hunter would enjoy this good opportunity to bring big game back to our town.<p>This expedition requires a master Hunter (Level 4+) and should last three days or more.",
+                        "03": "There is plenty of wildlife and big game waiting for an arrow to fly true inside the forests down south. It's not an easy nor short trip, but a capable hunter would come back home loaded with meat and furs of the best quality.<p>This expedition requires a master Hunter (Level 4+) and should last three days or more.",
+                        "04": "Since their own hunter and trapper re-embarked into new adventures, a relatively distant town known for their fruitful woods has stopped providing animal resources and goods. They might be waiting but nature won't, so it would be very profitable for our hunter to enter their territory and acquire some game while they're not at it.<p>This expedition requires a master Hunter (Level 4+) and should last three days or more.",
+                        "05": "Not many animals roam the bogs that exist a day or so from our town - but when they do, they come in packs of large animals. It is believed that this weather is perfect for an expedition there, and it should have good returns for our town, even if a bit distant.<p>This expedition requires a master Hunter (Level 4+) and should last three days or more.",
+                        "06": "There are lots of opportunities to be seized by following the river valleys up into the mountains. The whole circuit might take a few days to be completed, but a skilled hunter is bound to run into multiple big animal groups. A good opportunity for pelts and meat.<p>This expedition requires a master Hunter (Level 4+) and should last three days or more."
                      }
                   },
                   "huge": {
                      "title": "Great Hunting Expedition",
                      "message": {
-                        "01": "<p>This expedition requires a master Hunter (Level 5+) and should last several days.",
-                        "02": "<p>This expedition requires a master Hunter (Level 5+) and should last several days.",
-                        "03": "<p>This expedition requires a master Hunter (Level 5+) and should last several days.",
-                        "04": "<p>This expedition requires a master Hunter (Level 5+) and should last several days."
+                        "01": "Large groups of migrating animals march across the edges of the Darkmoor Forest around this time of the year. Many hunters from different lands will join the chase for big animals and great opportunities. It would be very wise to send our own.<p>This expedition requires a master Hunter (Level 5+) and should last several days.",
+                        "02": "This season is famous for the great poaching opportunities deep inside the Valkyrie Woods. If they beat the cold and the wilderness, our hunter would return home loaded with resources like pelts and meat.<p>This expedition requires a master Hunter (Level 5+) and should last several days.",
+                        "03": "As rare as it might be, hunting opportunities do exist in the vast deserts of Pal'Mum and this is such a time. Hunters from all the lands gather to tackle the migratory groups - and we should send our own as well.<p>This expedition requires a master Hunter (Level 5+) and should last several days.",
+                        "04": "There's always game to be hunted on the tricky cliffs of the Whiterock Plateau, but there is a particular hunting season that calls out to all hunters due to its very profitable and thrilling adventure. They would come home full of loot!<p>This expedition requires a master Hunter (Level 5+) and should last several days."
                      }
                   },
                   "wolves": {
                      "title": "Keeping Wolves at Bay",
                      "message": {
-                        "01": "<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
-                        "02": "<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
-                        "03": "<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
+                        "01": "Farmers from a small village are desperate over a pack of wolves that seems to be roaming their area, attacking at night and chasing down poyos and pets. Time to play the hero and do a good thing - while also bringing home some valuable furs!<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
+                        "02": "Shepherds from the nearby mountains are having trouble to count their sheep... It seems their numbers go down every night, wolves howl across the valleys. Let's help these poor hermits by sending our hunter to do the right thing - and bring us some goods.<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
+                        "03": "Travelers have reported a pack of wolves moving into our region in the last few nights. They're not a problem yet, but might be in the future. It would be wise to cull their numbers now. Wise and profitable.<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so."
                      }
                   },
                   "cougars": {
                      "title": "Chasing Big Cats",
                      "message": {
-                        "01": "<p>This expedition requires a master Hunter (Level 5+) and should last five days or so.",
-                        "02": "<p>This expedition requires a master Hunter (Level 5+) and should last five days or so.",
-                        "03": "<p>This expedition requires a master Hunter (Level 5+) and should last five days or so."
+                        "01": "Large felines have been scaring the fisherfolk from the small settlements near the river. Chasing these big predators might require a lot of cunning and several days - but the rewards would be definitely worth it.<p>This expedition requires a master Hunter (Level 5+) and should last five days or so.",
+                        "02": "Folk has been talking about huge cats tackling down people and animals near the edges of the warmer woods down south. These animals can be treacherous and a lot of skill is required, but a hunter could probably help them deal with the problem and bring us some resources all at once.<p>This expedition requires a master Hunter (Level 5+) and should last five days or so.",
+                        "03": "The giant 'ball of yarn monument' that used to be the pride and joy of a neighboring market tall has disappeared! No one has any evidence, but our hunter is confident that such a disappearance could only be the work of cats. Very big cats. Hunting them down could provide us with many resources.<p>This expedition requires a master Hunter (Level 5+) and should last five days or so."
                      }
                   },
                   "alligators": {
                      "title": "Predators of the Wetlands",
                      "message": {
-                        "01": "<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
-                        "02": "<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
-                        "03": "<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
+                        "01": "Living by the swamps is enough trouble already without varani crawling into your homes, but the friendly people from a nearby swamp village has a new concern in their heads. Let us help them get rid of this threat while also providing some valuable scaled skins and exotic meats.<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
+                        "02": "Folks have been going around the major road that goes through the nearby wetlands only to avoid a big pack of varani that seem to have nested near the passage. Let's do the realm a favor and clean the roads for everyone's sake - and our own profits.<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so.",
+                        "03": "There's a tribe of friendly goblins in the swamps that calls themselves the Firefly clan. They're mostly wary of us but are having trouble with pesky varani. We could send out a hunter to practice a good deed, help them and get some resources for our town.<p>This expedition requires at least an adept Hunter (Level 4+) and should last four days or so."
                      }
                   },
                   "zilla": {
                      "title": "The King of All Lizards",
                      "message": {
-                        "01": "<p>This expedition requires a grandmaster Hunter (Level 6) and will definitely last anything between four to six days.",
-                        "02": "<p>This expedition requires a grandmaster Hunter (Level 6) and will definitely last anything between four to six days.",
-                        "03": "<p>This expedition requires a grandmaster Hunter (Level 6) and will definitely last anything between four to six days."
+                        "01": "A terrible and fiery lizard is striking fear in the hearts of villagers from nearby towns. They're gathering a small militia to try to attack this 'Zilla' creature, but our hunter believes that a skilled shot when they least expect could do the work of an army. An opportunity for epic loot!<p>This expedition requires a grandmaster Hunter (Level 6) and will definitely last anything between four to six days.",
+                        "02": "A great varanus surrounded in flames is spreading terror throughout the region. A 'Zilla' like this would usually require a small army to be defeated... or a stealth, true arrow to the heart. This can be a chance for valuable, epic loot!<p>This expedition requires a grandmaster Hunter (Level 6) and will definitely last anything between four to six days.",
+                        "03": "A powerful beast known as a 'Zilla' has been sighted nearby and is causing panic and fires. Soldiers have been chasing it but it is likely that a single hunter with a strong enough arrow could save everyone the trouble. There's potential for epic loot in this trip.<p>This expedition requires a grandmaster Hunter (Level 6) and will definitely last anything between four to six days."
                      }
                   },
                   "legendary": {
                      "title": "Tracking the White Stag",
                      "message": {
-                        "01": "<p>This expedition requires a grandmaster Hunter (Level 6) but it's impossible to predict how long it will take.",
-                        "02": "<p>This expedition requires a grandmaster Hunter (Level 6) but it's impossible to predict how long it will take.",
-                        "03": "<p>This expedition requires a grandmaster Hunter (Level 6) but it's impossible to predict how long it will take."
+                        "01": "Rumors are spreading about a mythical, beautiful stag white as snow roaming the nearby woods. Hunters from all over the world will try to chase this legendary prize, and it's up to us to try and fetch it for our town. The great hunt begins.<p>This expedition requires a grandmaster Hunter (Level 6) and it's impossible to predict how long it will take.",
+                        "02": "Legend says that a gorgeous white stag will bathe under the moonlight by the tallest peak across the river valley at this time of the year. This would be a legendary trophy to immortalize our town in the history of big game hunting.<p>This expedition requires a grandmaster Hunter (Level 6) and it's impossible to predict how long it will take.",
+                        "03": "A legendary stag with silver fur and deep-blue eyes was sighted near our town. If the tales are true, the hunter that brings home this trophy will become a living legend. We must chase this trail, no matter how costly it is!<p>This expedition requires a grandmaster Hunter (Level 6) and it's impossible to predict how long it will take."
                      }
                   }
                }
@@ -138,6 +140,42 @@
          "sicd": {
             "display_name": "Sic'd!",
             "description": "Immobilized by the precise bite of a hunting dog."
+         },
+         "hunt_tired": {
+            "display_name": "Traveling Weariness",
+            "description": "This hearthling is tired after a successful hunting expedition. Speed and Diligence are reduced. Sleepiness will increase faster."
+         }
+      },
+      "happiness": {
+         "thoughts": {
+            "hunt": {
+               "values": {
+                  "regular": {
+                     "display_name": "Successful Hunt",
+                     "tooltip": "Nothing like coming back home with a lot of loot!"
+                  },
+                  "wolves": {
+                     "display_name": "In Defense of Others",
+                     "tooltip": "We really handled those pesky wolves - and I got some loot for our town!"
+                  },
+                  "cougars": {
+                     "display_name": "Big Game Hunter",
+                     "tooltip": "We chased down and slaughtered those big cats! What a triumphant hunt!"
+                  },
+                  "alligators": {
+                     "display_name": "Saving the Wetlands",
+                     "tooltip": "It was a difficult hunt... But we succeeded and those varani will never bother anyone else!"
+                  },
+                  "zilla": {
+                     "display_name": "Reptile Kingslayer",
+                     "tooltip": "What a dangerous pursuit! But the terrible reign of the Zilla is now over..."
+                  },
+                  "legendary": {
+                     "display_name": "Legendary Hunter",
+                     "tooltip": "I've pursued, trapped and defeated a great, glorious beast. I am become legend, the greatest hunter of the land."
+                  }
+               }
+            }
          }
       }
    },
@@ -149,7 +187,7 @@
                   "box_hunt": {
                      "display_name": "Hunt",
                      "description": "Mark specific animals for hunting",
-							"na_description": "Mark specific animals for hunting. Northern Alliance Archers are also able to hunt the animals marked with this tool",
+                     "na_description": "Mark specific animals for hunting. Northern Alliance Archers are also able to hunt the animals marked with this tool",
                      "tip_title": "Click and drag to mark them",
                      "tip_description": "Right click to exit this mode",
                      "required_job_text": "Requires a Hunter"

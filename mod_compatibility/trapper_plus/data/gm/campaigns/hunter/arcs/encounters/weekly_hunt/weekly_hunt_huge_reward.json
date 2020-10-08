@@ -1,0 +1,44 @@
+{
+   "donation_dialog_info": {
+      "loot_table": {
+         "entries": {
+            "pelts": {
+               "items": {
+                  "boar_pelt": {
+                     "uri": "trapper_plus:resources:fresh_boar_pelt"
+                  },
+                  "deer_pelt": {
+                     "uri": "trapper_plus:resources:fresh_deer_pelt"
+                  }
+               }
+            },
+            "jerky": {
+               "items": {
+                  "deer_jerky": {
+                     "uri": "trapper_plus:raw_deer_meat"
+                  },
+                  "boar_jerky": {
+                     "uri": "trapper_plus:raw_boar_meat"
+                  },
+                  "sheep_jerky": {
+                     "uri": "trapper_plus:raw_mutton_meat"
+                  }
+               }
+            },
+            "animal_fat": {
+               "num_rolls": 8,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "animal_fat": {
+                     "uri": "trapper_plus:resources:animal_fat",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

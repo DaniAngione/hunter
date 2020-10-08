@@ -1,0 +1,35 @@
+{
+   "donation_dialog_info": {
+      "loot_table": {
+         "entries": {
+            "skins": {
+               "items": {
+                  "skin": {
+                     "uri": "trapper_plus:resources:fresh_varanus_skin"
+                  }
+               }
+            },
+            "variety": {
+               "items": {
+                  "jerky": {
+                     "uri": "trapper_plus:raw_varanus_meat"
+                  }
+               }
+            },
+            "animal_fat": {
+               "num_rolls": 3,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "animal_fat": {
+                     "uri": "trapper_plus:resources:animal_fat",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

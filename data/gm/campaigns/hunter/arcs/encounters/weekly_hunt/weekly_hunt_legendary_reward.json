@@ -1,0 +1,74 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation_dialog",
+   "in_edge": "weekly_hunt_legendary_reward",
+   "out_edge": "weekly_hunt_reject",
+   "donation_dialog_info": {
+      "expiration_timeout": "2d",
+      "nodes": {
+         "simple_message": {
+            "bulletin": {
+               "title": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.bulletin_title_return)",
+               "dialog_title": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.legendary.title)",
+               "message": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.return)",
+               "choices": {
+                  "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.accept_reward)": {
+                     "result": "accept"
+                  }
+               }
+            }
+         }
+      },
+      "loot_table": {
+         "entries": {
+            "hat": {
+               "num_rolls": 1,
+               "items": {
+                  "hat": {
+                     "uri": "hunter:hat:legendary"
+                  }
+               }
+            },
+            "stag_meat": {
+               "num_rolls": 6,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "venison": {
+                     "uri": "stonehearth:food:venison",
+                     "weight": 2
+                  }
+               }
+            },
+            "bone": {
+               "num_rolls": 5,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "ancient_bone": {
+                     "uri": "stonehearth:resources:bone:ancient",
+                     "weight": 1
+                  }
+               }
+            },
+            "variety": {
+               "num_rolls": 8,
+               "items": {
+                  "jerky": {
+                     "uri": "stonehearth:deer_jerky",
+                     "weight": 1
+                  },
+                  "pelt": {
+                     "uri": "stonehearth:resources:deer_pelt",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

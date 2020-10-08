@@ -1,0 +1,18 @@
+{
+   "type": "encounter",
+   "encounter_type": "dispatch_quest",
+   "in_edge": "weekly_hunt_medium_quest",
+   "out_edge": "weekly_hunt_medium_reward",
+   "dispatch_quest_info": {
+      "title": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.quest_bulletin_title)",
+      "dialog_title": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.medium.title)",
+      "text": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.quest_text_level_3)",
+      "required_job": "hunter:jobs:hunter",
+      "required_job_level": 3,
+      "return_delay": "36h+16h",
+      "buff_on_return": "hunter:buffs:hunt_tired",
+      "thought_on_return": "stonehearth:thoughts:hunter:hunt:regular",
+      "xp_gained": 220,
+      "abandon_out_edge": "weekly_hunt_reject"
+   }
+}

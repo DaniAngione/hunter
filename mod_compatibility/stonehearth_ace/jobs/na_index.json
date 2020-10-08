@@ -1,0 +1,7 @@
+{
+   "jobs": {
+      "hunter:jobs:hunter": {
+         "description": "file(hunter/na_hunter_description.json)"
+      }
+   }
+}

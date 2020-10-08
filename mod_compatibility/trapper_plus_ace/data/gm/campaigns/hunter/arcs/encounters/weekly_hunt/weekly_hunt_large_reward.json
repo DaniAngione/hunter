@@ -1,0 +1,22 @@
+{
+   "donation_dialog_info": {
+      "loot_table": {
+         "entries": {
+            "pelts": {
+               "items": {
+                  "wild_cattle_pelt": {
+                     "uri": "trapper_plus:resources:fresh_wild_cattle_pelt"
+                  }
+               }
+            },
+            "jerky": {
+               "items": {
+                  "beef_jerky": {
+                     "uri": "trapper_plus:raw_beef_meat"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

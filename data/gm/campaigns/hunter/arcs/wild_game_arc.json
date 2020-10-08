@@ -54,6 +54,38 @@
 		
 		"weekly_hunt_small": "file(encounters/weekly_hunt/weekly_hunt_small.json)",
 		"weekly_hunt_small_quest": "file(encounters/weekly_hunt/weekly_hunt_small_quest.json)",
-		"weekly_hunt_small_reward": "file(encounters/weekly_hunt/weekly_hunt_small_reward.json)"
+		"weekly_hunt_small_reward": "file(encounters/weekly_hunt/weekly_hunt_small_reward.json)",
+		
+		"weekly_hunt_medium": "file(encounters/weekly_hunt/weekly_hunt_medium.json)",
+		"weekly_hunt_medium_quest": "file(encounters/weekly_hunt/weekly_hunt_medium_quest.json)",
+		"weekly_hunt_medium_reward": "file(encounters/weekly_hunt/weekly_hunt_medium_reward.json)",
+		
+		"weekly_hunt_large": "file(encounters/weekly_hunt/weekly_hunt_large.json)",
+		"weekly_hunt_large_quest": "file(encounters/weekly_hunt/weekly_hunt_large_quest.json)",
+		"weekly_hunt_large_reward": "file(encounters/weekly_hunt/weekly_hunt_large_reward.json)",
+		
+		"weekly_hunt_huge": "file(encounters/weekly_hunt/weekly_hunt_huge.json)",
+		"weekly_hunt_huge_quest": "file(encounters/weekly_hunt/weekly_hunt_huge_quest.json)",
+		"weekly_hunt_huge_reward": "file(encounters/weekly_hunt/weekly_hunt_huge_reward.json)",
+		
+		"weekly_hunt_wolves": "file(encounters/weekly_hunt/weekly_hunt_wolves.json)",
+		"weekly_hunt_wolves_quest": "file(encounters/weekly_hunt/weekly_hunt_wolves_quest.json)",
+		"weekly_hunt_wolves_reward": "file(encounters/weekly_hunt/weekly_hunt_wolves_reward.json)",
+		
+		"weekly_hunt_cougars": "file(encounters/weekly_hunt/weekly_hunt_cougars.json)",
+		"weekly_hunt_cougars_quest": "file(encounters/weekly_hunt/weekly_hunt_cougars_quest.json)",
+		"weekly_hunt_cougars_reward": "file(encounters/weekly_hunt/weekly_hunt_cougars_reward.json)",
+		
+		"weekly_hunt_alligators": "file(encounters/weekly_hunt/weekly_hunt_alligators.json)",
+		"weekly_hunt_alligators_quest": "file(encounters/weekly_hunt/weekly_hunt_alligators_quest.json)",
+		"weekly_hunt_alligators_reward": "file(encounters/weekly_hunt/weekly_hunt_alligators_reward.json)",
+		
+		"weekly_hunt_zilla": "file(encounters/weekly_hunt/weekly_hunt_zilla.json)",
+		"weekly_hunt_zilla_quest": "file(encounters/weekly_hunt/weekly_hunt_zilla_quest.json)",
+		"weekly_hunt_zilla_reward": "file(encounters/weekly_hunt/weekly_hunt_zilla_reward.json)",
+		
+		"weekly_hunt_legendary": "file(encounters/weekly_hunt/weekly_hunt_legendary.json)",
+		"weekly_hunt_legendary_quest": "file(encounters/weekly_hunt/weekly_hunt_legendary_quest.json)",
+		"weekly_hunt_legendary_reward": "file(encounters/weekly_hunt/weekly_hunt_legendary_reward.json)"
    }
 }

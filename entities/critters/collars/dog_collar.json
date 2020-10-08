@@ -17,7 +17,6 @@
                "stonehearth:actions:wait_for_expendable_resource_above",
                "stonehearth:actions:pet:check_out_random_friend",
                "stonehearth:actions:pet:get_off_ladder",
-               "stonehearth:actions:pet:run_in_circles",
                "stonehearth:actions:pet:follow_owner",
                "stonehearth:actions:pet:pet_run_to_safety",
                "stonehearth:actions:pet:pet_wait_at_safety_point"

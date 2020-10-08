@@ -1,0 +1,18 @@
+{
+   "type": "encounter",
+   "encounter_type": "dispatch_quest",
+   "in_edge": "weekly_hunt_cougars_quest",
+   "out_edge": "weekly_hunt_cougars_reward",
+   "dispatch_quest_info": {
+      "title": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.quest_bulletin_title)",
+      "dialog_title": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.cougars.title)",
+      "text": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.quest_text_level_5)",
+      "required_job": "hunter:jobs:hunter",
+      "required_job_level": 5,
+      "return_delay": "5d+8h",
+      "buff_on_return": "hunter:buffs:hunt_tired",
+      "thought_on_return": "stonehearth:thoughts:hunter:hunt:cougars",
+      "xp_gained": 580,
+      "abandon_out_edge": "weekly_hunt_reject"
+   }
+}

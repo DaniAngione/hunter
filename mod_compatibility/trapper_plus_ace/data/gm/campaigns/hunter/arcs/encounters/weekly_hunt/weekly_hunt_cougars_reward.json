@@ -1,0 +1,15 @@
+{
+   "donation_dialog_info": {
+      "loot_table": {
+         "entries": {
+				"variety": {
+               "items": {
+                  "jerky": {
+                     "uri": "trapper_plus:raw_cougar_meat"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

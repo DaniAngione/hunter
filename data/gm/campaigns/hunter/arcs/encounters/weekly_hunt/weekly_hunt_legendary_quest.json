@@ -1,0 +1,18 @@
+{
+   "type": "encounter",
+   "encounter_type": "dispatch_quest",
+   "in_edge": "weekly_hunt_legendary_quest",
+   "out_edge": "weekly_hunt_legendary_reward",
+   "dispatch_quest_info": {
+      "title": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.quest_bulletin_title)",
+      "dialog_title": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.legendary.title)",
+      "text": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.quest_text_level_6)",
+      "required_job": "hunter:jobs:hunter",
+      "required_job_level": 6,
+      "return_delay": "6d+5d",
+      "buff_on_return": "hunter:buffs:hunt_tired",
+      "thought_on_return": "stonehearth:thoughts:hunter:hunt:legendary",
+      "xp_gained": 1200,
+      "abandon_out_edge": "weekly_hunt_reject"
+   }
+}

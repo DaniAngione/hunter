@@ -1,0 +1,102 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation_dialog",
+   "in_edge": "weekly_hunt_medium_reward",
+   "out_edge": "weekly_hunt_reject",
+   "donation_dialog_info": {
+      "expiration_timeout": "2d",
+      "nodes": {
+         "simple_message": {
+            "bulletin": {
+               "title": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.bulletin_title_return)",
+               "dialog_title": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.medium.title)",
+               "message": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.return)",
+               "choices": {
+                  "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.accept_reward)": {
+                     "result": "accept"
+                  }
+               }
+            }
+         }
+      },
+      "loot_table": {
+         "entries": {
+            "pelts": {
+               "num_rolls": 12,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "red_fox_pelt": {
+                     "uri": "stonehearth:resources:red_fox_pelt",
+                     "weight": 1
+                  },
+                  "racoon_pelt": {
+                     "uri": "stonehearth:resources:racoon_pelt",
+                     "weight": 2
+                  },
+                  "wool": {
+                     "uri": "stonehearth:resources:fiber:wool_bundle",
+                     "weight": 0.5
+                  },
+                  "duckduck_feathers": {
+                     "uri": "stonehearth:resources:feathers:duckduck_feathers",
+                     "weight": 0.3
+                  },
+                  "ostrich_feathers": {
+                     "uri": "stonehearth:resources:feathers:ostrich_feathers",
+                     "weight": 0.3
+                  }
+               }
+            },
+            "large meat": {
+               "num_rolls": 6,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 3
+                  },
+                  "mutton": {
+                     "uri": "stonehearth:food:mutton",
+                     "weight": 1
+                  },
+                  "poultry_large": {
+                     "uri": "stonehearth:food:poultry_large",
+                     "weight": 0.5
+                  }
+               }
+            },
+            "jerky": {
+               "num_rolls": 14,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "racoon_jerky": {
+                     "uri": "stonehearth:racoon_jerky",
+                     "weight": 2
+                  },
+                  "red_fox_jerky": {
+                     "uri": "stonehearth:red_fox_jerky",
+                     "weight": 1
+                  },
+                  "sheep_jerky": {
+                     "uri": "stonehearth:sheep_jerky",
+                     "weight": 0.5
+                  },
+                  "duckduck_jerky": {
+                     "uri": "stonehearth:duckduck_jerky",
+                     "weight": 0.2
+                  },
+                  "ostrich_jerky": {
+                     "uri": "stonehearth:ostrich_jerky",
+                     "weight": 0.2
+                  }
+               }
+            }
+         }
+      }
+   }
+}

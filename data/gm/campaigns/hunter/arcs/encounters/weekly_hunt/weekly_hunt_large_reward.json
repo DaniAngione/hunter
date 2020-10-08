@@ -1,0 +1,103 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation_dialog",
+   "in_edge": "weekly_hunt_large_reward",
+   "out_edge": "weekly_hunt_reject",
+   "donation_dialog_info": {
+      "expiration_timeout": "2d",
+      "nodes": {
+         "simple_message": {
+            "bulletin": {
+               "title": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.bulletin_title_return)",
+               "dialog_title": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.large.title)",
+               "message": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.return)",
+               "choices": {
+                  "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.accept_reward)": {
+                     "result": "accept"
+                  }
+               }
+            }
+         }
+      },
+      "loot_table": {
+         "entries": {
+            "pelts": {
+               "num_rolls": 18,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "boar_pelt": {
+                     "uri": "stonehearth:resources:boar_pelt",
+                     "weight": 1
+                  },
+                  "deer_pelt": {
+                     "uri": "stonehearth:resources:deer_pelt",
+                     "weight": 2
+                  },
+                  "wool": {
+                     "uri": "stonehearth:resources:fiber:wool_bundle",
+                     "weight": 0.5
+                  }
+               }
+            },
+            "large meat": {
+               "num_rolls": 12,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "pork": {
+                     "uri": "stonehearth:food:pork",
+                     "weight": 1
+                  },
+                  "venison": {
+                     "uri": "stonehearth:food:venison",
+                     "weight": 2
+                  },
+                  "mutton": {
+                     "uri": "stonehearth:food:mutton",
+                     "weight": 2
+                  }
+               }
+            },
+            "bone": {
+               "num_rolls": 8,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "deer_horn": {
+                     "uri": "stonehearth:resources:deer_horn",
+                     "weight": 1
+                  }
+               }
+            },
+            "jerky": {
+               "num_rolls": 16,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "deer_jerky": {
+                     "uri": "stonehearth:deer_jerky",
+                     "weight": 2
+                  },
+                  "boar_jerky": {
+                     "uri": "stonehearth:boar_jerky",
+                     "weight": 1
+                  },
+                  "sheep_jerky": {
+                     "uri": "stonehearth:sheep_jerky",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

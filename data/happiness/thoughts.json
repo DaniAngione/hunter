@@ -1,0 +1,48 @@
+{
+   "type": "index",
+   "thoughts": {
+      "hunter": {
+         "hunt": {
+            "mutually_exclusive": true,
+            "values": {
+               "regular": {
+                  "display_name": "i18n(hunter:data.happiness.thoughts.hunt.values.regular.display_name)",
+                  "tooltip": "i18n(hunter:data.happiness.thoughts.hunt.values.regular.tooltip)",
+                  "happiness_delta": 10,
+                  "duration": "3d"
+               },
+               "wolves": {
+                  "display_name": "i18n(hunter:data.happiness.thoughts.hunt.values.wolves.display_name)",
+                  "tooltip": "i18n(hunter:data.happiness.thoughts.hunt.values.wolves.tooltip)",
+                  "happiness_delta": 12,
+                  "duration": "4d"
+               },
+               "cougars": {
+                  "display_name": "i18n(hunter:data.happiness.thoughts.hunt.values.cougars.display_name)",
+                  "tooltip": "i18n(hunter:data.happiness.thoughts.hunt.values.cougars.tooltip)",
+                  "happiness_delta": 14,
+                  "duration": "4d"
+               },
+               "alligators": {
+                  "display_name": "i18n(hunter:data.happiness.thoughts.hunt.values.alligators.display_name)",
+                  "tooltip": "i18n(hunter:data.happiness.thoughts.hunt.values.alligators.tooltip)",
+                  "happiness_delta": 12,
+                  "duration": "4d"
+               },
+               "zilla": {
+                  "display_name": "i18n(hunter:data.happiness.thoughts.hunt.values.zilla.display_name)",
+                  "tooltip": "i18n(hunter:data.happiness.thoughts.hunt.values.zilla.tooltip)",
+                  "happiness_delta": 16,
+                  "duration": "6d"
+               },
+               "legendary": {
+                  "display_name": "i18n(hunter:data.happiness.thoughts.hunt.values.legendary.display_name)",
+                  "tooltip": "i18n(hunter:data.happiness.thoughts.hunt.values.legendary.tooltip)",
+                  "happiness_delta": 20,
+                  "duration": "8d"
+               }
+            }
+         }
+      }
+   }
+}

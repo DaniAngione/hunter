@@ -10,8 +10,8 @@
       "required_job": "hunter:jobs:hunter",
       "required_job_level": 2,
       "return_delay": "20h+16h",
-      "buff_on_return": "stonehearth:amberstone:visit_buff",
-      "thought_on_return": "stonehearth:thoughts:amberstone:borrow_crafter:helped_out",
+      "buff_on_return": "hunter:buffs:hunt_tired",
+      "thought_on_return": "stonehearth:thoughts:hunter:hunt:regular",
       "xp_gained": 120,
       "abandon_out_edge": "weekly_hunt_reject"
    }

@@ -1,0 +1,47 @@
+{
+   "donation_dialog_info": {
+      "loot_table": {
+         "entries": {
+            "pelts": {
+               "items": {
+                  "red_fox_pelt": {
+                     "uri": "trapper_plus:resources:fresh_rabbit_pelt"
+                  },
+                  "racoon_pelt": {
+                     "uri": "trapper_plus:resources:fresh_squirrel_pelt"
+                  }
+               }
+            },
+            "jerky": {
+               "items": {
+                  "rabbit_jerky": {
+                     "uri": "trapper_plus:raw_rabbit_meat"
+                  },
+                  "squirrel_jerky": {
+                     "uri": "trapper_plus:raw_squirrel_meat"
+                  },
+                  "duckduck_jerky": {
+                     "uri": "trapper_plus:raw_duckduck_meat"
+                  },
+                  "ostrich_jerky": {
+                     "uri": "trapper_plus:raw_ostrich_meat"
+                  }
+               }
+            },
+            "animal_fat": {
+               "num_rolls": 3,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "animal_fat": {
+                     "uri": "trapper_plus:resources:animal_fat",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

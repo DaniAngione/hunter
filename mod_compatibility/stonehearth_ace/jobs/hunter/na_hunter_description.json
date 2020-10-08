@@ -1,0 +1,7 @@
+{
+   "type": "job",
+   "mixins": "hunter:jobs:hunter",
+   "equipment": {
+      "torso": "file(na_hunter_outfit)"
+   }
+}

@@ -1,0 +1,29 @@
+{
+   "donation_dialog_info": {
+      "loot_table": {
+         "entries": {
+				"bone": {
+					"num_rolls": 14,
+					"items": {
+						"none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "bone_material": {
+                     "uri": "stonehearth_ace:resources:bone:bone_material",
+                     "weight": 2
+                  }
+               }
+				},
+				"variety": {
+               "items": {
+                  "jerky": {
+                     "uri": "stonehearth_ace:cougar_jerky",
+                     "weight": 2
+                  }
+               }
+            }
+         }
+      }
+   }
+}

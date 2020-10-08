@@ -1,0 +1,78 @@
+{
+   "type": "encounter",
+   "encounter_type": "donation_dialog",
+   "in_edge": "weekly_hunt_zilla_reward",
+   "out_edge": "weekly_hunt_reject",
+   "donation_dialog_info": {
+      "expiration_timeout": "2d",
+      "nodes": {
+         "simple_message": {
+            "bulletin": {
+               "title": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.bulletin_title_return)",
+               "dialog_title": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.zilla.title)",
+               "message": "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.return)",
+               "choices": {
+                  "i18n(hunter:data.gm.campaigns.hunting.weekly_hunt.common.accept_reward)": {
+                     "result": "accept"
+                  }
+               }
+            }
+         }
+      },
+      "loot_table": {
+         "entries": {
+            "skins": {
+               "num_rolls": 6,
+               "items": {
+                  "skin": {
+                     "uri": "stonehearth:resources:zilla_skin"
+                  }
+               }
+            },
+            "meat": {
+               "num_rolls": 8,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "roast_zilla": {
+                     "uri": "stonehearth:food:roast_zilla",
+                     "weight": 2
+                  }
+               }
+            },
+            "bone": {
+               "num_rolls": 8,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "ancient_bone": {
+                     "uri": "stonehearth:resources:bone:ancient",
+                     "weight": 1
+                  }
+               }
+            },
+            "variety": {
+               "num_rolls": 10,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "jerky": {
+                     "uri": "stonehearth:zilla_jerky",
+                     "weight": 2
+                  },
+                  "gold_flakes": {
+                     "uri": "stonehearth:refined:gold_flakes",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

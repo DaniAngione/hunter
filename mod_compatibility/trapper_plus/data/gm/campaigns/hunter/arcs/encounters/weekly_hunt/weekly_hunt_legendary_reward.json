@@ -1,0 +1,31 @@
+{
+   "donation_dialog_info": {
+      "loot_table": {
+         "entries": {
+            "variety": {
+               "items": {
+                  "jerky": {
+                     "uri": "trapper_plus:raw_deer_meat"
+                  },
+                  "pelt": {
+                     "uri": "trapper_plus:resources:fresh_deer_pelt"
+                  }
+               }
+            },
+            "animal_fat": {
+               "num_rolls": 2,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "animal_fat": {
+                     "uri": "trapper_plus:resources:animal_fat",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

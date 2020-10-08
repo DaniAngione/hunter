@@ -1,0 +1,12 @@
+{
+   "can_start": {
+      "test_1": {
+			"deny_hunter": {
+            "item": "highest_job_level",
+            "type": "deny_if_greater_than",
+            "value": 0,
+            "job_alias": "hunter:jobs:hunter"
+         }
+      }
+   }
+}

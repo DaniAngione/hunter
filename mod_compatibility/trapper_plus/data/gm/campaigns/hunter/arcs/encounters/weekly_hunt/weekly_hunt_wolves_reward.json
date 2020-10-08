@@ -1,0 +1,35 @@
+{
+   "donation_dialog_info": {
+      "loot_table": {
+         "entries": {
+            "pelts": {
+               "items": {
+                  "pelt": {
+                     "uri": "trapper_plus:resources:fresh_wolf_pelt"
+                  }
+               }
+            },
+            "variety": {
+               "items": {
+                  "jerky": {
+                     "uri": "trapper_plus:raw_wolf_meat"
+                  }
+               }
+            },
+            "animal_fat": {
+               "num_rolls": 6,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "animal_fat": {
+                     "uri": "trapper_plus:resources:animal_fat",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

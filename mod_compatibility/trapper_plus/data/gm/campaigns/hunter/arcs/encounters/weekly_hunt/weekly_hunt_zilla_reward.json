@@ -1,0 +1,28 @@
+{
+   "donation_dialog_info": {
+      "loot_table": {
+         "entries": {
+            "skins": {
+               "items": {
+                  "skin": {
+                     "uri": "trapper_plus:resources:fresh_zilla_skin"
+                  }
+               }
+            },
+            "animal_fat": {
+               "num_rolls": 4,
+               "items": {
+                  "none": {
+                     "uri": "",
+                     "weight": 1
+                  },
+                  "animal_fat": {
+                     "uri": "trapper_plus:resources:animal_fat",
+                     "weight": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}
