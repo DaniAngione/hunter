@@ -4,12 +4,12 @@ local LootDropsComponent = require 'stonehearth.components.loot_drops.loot_drops
 -- ACE Compatibility
 local AceLootDropsComponent = require 'stonehearth_ace.monkey_patches.ace_loot_drops_component'
 -- ACE Unstable Compatibility
-local  AceUnstable = 'stonehearth_ace.monkey_patches.ace_charging_pedestal_component',
+local AceUnstable = require 'stonehearth_ace.monkey_patches.ace_charging_pedestal_component'
 
 local HunterLootDropsComponent = class()
 
 function HunterLootDropsComponent:activate()
-	if AceLootDropsComponent and AceUnstable then
+	if AceUnstable then
 		self._kill_listener = radiant.events.listen(self._entity, 'stonehearth:kill_event', self, self._on_kill_event_ace_unstable)
 	elseif AceLootDropsComponent then
 		self._kill_listener = radiant.events.listen(self._entity, 'stonehearth:kill_event', self, self._on_kill_event_ace)
