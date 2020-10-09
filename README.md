@@ -1,6 +1,6 @@
 # The Hunter
 ### by Daniel Angione
-v1.0 for Stonehearth 1.1+
+v1.0.1 for Stonehearth 1.1+
 https://stonehearth.net/ 
 
 ## DESCRIPTION
@@ -62,6 +62,11 @@ Very special thanks to PaultheGreat for his help with some of the coding issues 
 This mod and all its contents are under a GNU GPL 3.0 license and may be used, shared, remixed and anything else as long as credit is given, linked and the same license is used! More info: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## CHANGELOG
+
+### October 9th, 2020 - v1.0.1
+- Fixed an issue with the Loot Drops Component that caused errors when using the stable release of ACE.
+- Fixed an issue when sending out a citizen to a dispatch quest (i.e: Amberstone) and they don't have a pet.
+- Added compatibility for customizing the "Dog Companion" per kingdom.
 
 ### October 8th, 2020 - v1.0
 - Initial Release
