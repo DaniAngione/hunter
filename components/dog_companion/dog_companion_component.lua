@@ -1,5 +1,6 @@
 local Point3 = _radiant.csg.Point3
 local COMPANION_OFFSET = Point3(2, 0, 2)
+local DOG_COMPANION_INDEX = radiant.resources.load_json('hunter:jobs:hunter:dog_companion_index')
 
 local DogCompanionComponent = class()
 
@@ -17,7 +18,8 @@ function DogCompanionComponent:activate()
 end
 
 function DogCompanionComponent:_create_companion(player_id)
-   self._sv._companion = radiant.entities.create_entity('hunter:dog_companion', { owner = player_id })
+	local chosen_companion = DOG_COMPANION_INDEX[stonehearth.population:get_population(player_id):get_kingdom()] or DOG_COMPANION_INDEX['stonehearth:kingdoms:ascendancy'] or 'hunter:dog_companion'
+   self._sv._companion = radiant.entities.create_entity(chosen_companion, { owner = player_id })
 	self.__saved_variables:mark_changed()
 
    self:_make_pet(player_id)

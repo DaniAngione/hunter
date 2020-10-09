@@ -43,6 +43,7 @@
       "hat:legendary": "file(jobs/hunter/legendary_hat/legendary_hat.json)",
       "hat:master": "file(jobs/hunter/master_hat/master_hat.json)",
       "jobs:hunter": "file(jobs/hunter/hunter_description.json)",
+		"jobs:hunter:dog_companion_index": "file(jobs/hunter/dog_companion_index.json)",
       "jobs:hunter:recipes": "file(jobs/hunter/hunter_recipes.json)",
       "jobs:index": "file(jobs/index.json)",
       "talisman": "file(entities/weapons/hunting_bow/hunter_talisman.json)",
