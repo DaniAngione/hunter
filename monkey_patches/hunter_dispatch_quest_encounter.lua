@@ -11,7 +11,9 @@ function HunterDispatchQuest:restore()
    for _, citizen in pairs(self._sv.dispatched_citizens) do
       local town = stonehearth.town:get_town(self._sv.ctx.player_id)
 		local pets = {}
-		pets = citizen:get_component('stonehearth:pet_owner'):get_pets()
+		if citizen:get_component('stonehearth:pet_owner') then 
+			pets = citizen:get_component('stonehearth:pet_owner'):get_pets()
+		end
       local location = radiant.terrain.find_placement_point(town:get_landing_location(), 0, 20)
       radiant.terrain.place_entity(citizen, location)
       town:dispatch_citizen(citizen)
@@ -72,8 +74,11 @@ function HunterDispatchQuest:_return_citizens()
    for _, citizen in pairs(self._sv.dispatched_citizens) do
       town:return_citizen(citizen)
       self:_play_poof_for(citizen)
+		
 		local pets = {}
-		pets = citizen:get_component('stonehearth:pet_owner'):get_pets()
+		if citizen:get_component('stonehearth:pet_owner') then
+			pets = citizen:get_component('stonehearth:pet_owner'):get_pets()
+		end
 		
 		if pets ~= {} then 
 			town:_continue_animals(pets)
