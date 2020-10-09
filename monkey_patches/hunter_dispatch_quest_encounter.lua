@@ -45,7 +45,9 @@ function HunterDispatchQuest:_on_try_dispatch(session, request, citizens)
          if self:_check_requirements(citizen, req) then
             table.remove(remaining_requirements, j)
             matched = true
-				pets = citizen:get_component('stonehearth:pet_owner'):get_pets()
+				if citizen:get_component('stonehearth:pet_owner') then
+					pets = citizen:get_component('stonehearth:pet_owner'):get_pets()
+				end
             break
          end
       end
