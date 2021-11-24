@@ -4,7 +4,7 @@ local LootDropsComponent = require 'stonehearth.components.loot_drops.loot_drops
 -- ACE Compatibility
 local AceLootDropsComponent = require 'stonehearth_ace.monkey_patches.ace_loot_drops_component'
 -- ACE Unstable Compatibility
-local AceUnstable = require 'stonehearth_ace.monkey_patches.ace_charging_pedestal_component'
+local AceUnstable = require 'stonehearth_ace.monkey_patches.ace_portrait_renderer_service.lua'
 local AceUtil = require 'stonehearth_ace.lib.util'
 
 local HunterLootDropsComponent = class()
