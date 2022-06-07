@@ -6,6 +6,9 @@
 		"wait_for_master_hunter": "file(encounters/wait_for_master_hunter.json)",
       "wait_a_day": "file(encounters/wait_a_day.json)",
 		
+		"add_hunt_counter": "file(encounters/add_hunt_counter.json)",
+		"remove_hunt_counter": "file(encounters/remove_hunt_counter.json)",
+		
       "generate_daily_hunt": "file(encounters/generate_daily_hunt.json)",
       "randomize_small_hunt": "file(encounters/randomize_small_hunt.json)",
 		"randomize_medium_hunt": "file(encounters/randomize_medium_hunt.json)",

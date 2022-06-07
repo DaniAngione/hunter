@@ -1,0 +1,15 @@
+{
+   "type": "encounter",
+   "encounter_type": "set_counters",
+   "in_edge": "remove_hunt_counter",
+   "out_edge": {
+      "type": "destroy_tree",
+      "root": "generate_daily_hunt",
+      "destroy_root": false
+   },
+   "set_counters_info": {
+      "counters": {
+         "hunts": "x - 1"
+      }
+   }
+}

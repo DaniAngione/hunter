@@ -2,15 +2,20 @@
    "type": "encounter",
    "encounter_type": "wait",
    "in_edge": "validate_racoon",
-   "out_edge": "racoon_hunt",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "racoon_hunt",
+			"add_hunt_counter"
+      ]
+   },
    "can_start": {
       "test_1": {
-         "number_active_check": {
-            "item": "number_active",
+         "hunt_counter": {
             "type": "deny_if_greater_than",
-            "value": 2,
-            "start_node": "racoon_hunt",
-            "end_node": "racoon_killed"
+            "item": "counter",
+            "key": "hunts",
+            "value": 4
          }
       }
    },

@@ -2,15 +2,20 @@
    "type": "encounter",
    "encounter_type": "wait",
    "in_edge": "validate_squirrel",
-   "out_edge": "squirrel_hunt",
+   "out_edge": {
+      "type": "trigger_many",
+      "out_edges": [
+         "squirrel_hunt",
+			"add_hunt_counter"
+      ]
+   },
    "can_start": {
       "test_1": {
-         "number_active_check": {
-            "item": "number_active",
+         "hunt_counter": {
             "type": "deny_if_greater_than",
-            "value": 2,
-            "start_node": "squirrel_hunt",
-            "end_node": "squirrel_killed"
+            "item": "counter",
+            "key": "hunts",
+            "value": 4
          }
       }
    },

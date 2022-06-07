@@ -7,7 +7,6 @@ local monkey_patches = {
 	hunter_combat_service = 'stonehearth.services.server.combat.combat_service',
 	hunter_dispatch_quest_encounter = 'stonehearth.services.server.game_master.controllers.encounters.dispatch_quest_encounter',
 	hunter_donation_dialog_encounter = 'stonehearth.services.server.game_master.controllers.encounters.donation_dialog_encounter',
-	hunter_node = 'stonehearth.services.server.game_master.controllers.node',
 	hunter_loot_drops_component = 'stonehearth.components.loot_drops.loot_drops_component'
 }
 

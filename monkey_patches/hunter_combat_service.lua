@@ -84,9 +84,10 @@ function HunterCombatService:_record_kill_stats(attacker, target, units)
 
       for _, unit in pairs(units) do
          local stance = self:get_stance(unit)
-			if attacker:get_component('stonehearth:pet') then
+         local attacker_job_component = attacker:get_component('stonehearth:job') or nil
+			if attacker:get_component('stonehearth:pet') or attacker:get_component('stonehearth:turret') then
 				return
-         elseif stance == 'defensive' or stance == 'aggressive' or attacker:get_component('stonehearth:job'):get_job_uri() == 'hunter:jobs:hunter' then
+         elseif stance == 'defensive' or stance == 'aggressive' or attacker_job_component and attacker_job_component:get_job_uri() == 'hunter:jobs:hunter' then
             self:_record_kill_stats_for_entity(unit, unit == attacker and 'kills' or 'assists', enemy_player, enemy_category, enemy_specifier, true)
          end
       end

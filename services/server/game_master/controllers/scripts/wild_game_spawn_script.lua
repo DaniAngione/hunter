@@ -147,9 +147,6 @@ function WildGameSpawn:_create_party(ctx, info)
 						if distance and distance < stonehearth.constants.hunter.HUNTING_CAMP_RANGE then
 							camp_found = true
 							break
-						else
-							camp_found = false
-							break
 						end
 					end
 				end			

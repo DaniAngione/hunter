@@ -63,6 +63,17 @@ This mod and all its contents are under a GNU GPL 3.0 license and may be used, s
 
 ## CHANGELOG
 
+### June 6th, 2022 - v1.1
+- Increased the minimum experience gained by the Hunter when hunting animals from 5 to 16
+- Increased the maximum experience gained by the Hunter when hunting animals from 70 to 90
+- Decreased the time to "clean-up" hunts from 7 to 4 days
+- Fixed a long-standing combat service issue that caused turrets to not kill enemies
+- Fixed another combat service issue that albeit rarer, caused all units (including enemies and lings) to not be able to harm/damage each other anymore
+- Removed `node.lua` patch (not needed anymore)
+- Streamlined/cleaned scripts a bit
+- Fixed an issue with the Hunting Camp not properly "ordering" animals to be hunted even when spawning within its range
+- Fixed an issue that made wild animal tracking permanently stop after a while.
+
 ### October 9th, 2020 - v1.0.1
 - Fixed an issue with the Loot Drops Component that caused errors when using the stable release of ACE.
 - Fixed an issue when sending out a citizen to a dispatch quest (i.e: Amberstone) and they don't have a pet.
